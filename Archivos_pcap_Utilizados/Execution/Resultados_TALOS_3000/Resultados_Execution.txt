@@ -1,0 +1,13 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+
+Commencing packet processing
+++ [0] ./T0858-ChangeOPMode-Omron.pcapng
+
+##### T0858-ChangeOPMode-Omron.pcapng #####
+	[1:15398:5] PROTOCOL-SCADA OMRON-FINS RUN attempt (alerts: 3)
+	[1:15399:5] PROTOCOL-SCADA OMRON-FINS STOP attempt (alerts: 3)
+#####
+-- [0] ./T0858-ChangeOPMode-Omron.pcapng
+

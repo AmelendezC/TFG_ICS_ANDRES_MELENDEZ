@@ -1,0 +1,30 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+Commencing packet processing
+++ [0] ./T0843-FileDownload-Modbus.pcapng
+
+##### T0843-FileDownload-Modbus.pcapng #####
+	[1:17790:5] PROTOCOL-SCADA Modbus read holding registers from external source (alerts: 2)
+#####
+-- [0] ./T0843-FileDownload-Modbus.pcapng
+++ [0] ./T0843-FileRead-DNP3-FIXED.pcapng
+
+##### T0843-FileRead-DNP3-FIXED.pcapng #####
+	[1:1917:16] INDICATOR-SCAN UPnP service discover attempt (alerts: 16)
+#####
+-- [0] ./T0843-FileRead-DNP3-FIXED.pcapng
+++ [0] ./T0843-FileUpload-Modbus.pcapng
+
+##### T0843-FileUpload-Modbus.pcapng #####
+	[1:17782:5] PROTOCOL-SCADA Modbus write multiple registers from external source (alerts: 1)
+	[1:17790:5] PROTOCOL-SCADA Modbus read holding registers from external source (alerts: 1)
+#####
+-- [0] ./T0843-FileUpload-Modbus.pcapng
+++ [0] ./T0843-FileWrite-DNP3-FIXED.pcapng
+
+##### T0843-FileWrite-DNP3-FIXED.pcapng #####
+	[1:1917:16] INDICATOR-SCAN UPnP service discover attempt (alerts: 3)
+#####
+-- [0] ./T0843-FileWrite-DNP3-FIXED.pcapng
+

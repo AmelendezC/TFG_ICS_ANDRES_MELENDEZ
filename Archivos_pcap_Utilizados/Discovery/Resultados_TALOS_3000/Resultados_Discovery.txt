@@ -1,0 +1,60 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+Commencing packet processing
+++ [0] ./T0846-Discovery-BacNet.pcapng
+
+##### T0846-Discovery-BacNet.pcapng #####
+	No alerts
+#####
+-- [0] ./T0846-Discovery-BacNet.pcapng
+++ [0] ./T0846-Discovery-IEC104.pcapng
+
+##### T0846-Discovery-IEC104.pcapng #####
+	[1:1917:16] INDICATOR-SCAN UPnP service discover attempt (alerts: 17)
+	[1:41048:4] PROTOCOL-SCADA IEC 104 STARTDT CON (alerts: 1)
+	[1:41052:4] PROTOCOL-SCADA IEC 104 TESTFR CON (alerts: 1)
+	[1:41055:4] PROTOCOL-SCADA IEC 104 End of initialization (alerts: 1)
+	[1:41058:4] PROTOCOL-SCADA IEC 104 Interrogation command (alerts: 1)
+	[1:41070:4] PROTOCOL-SCADA IEC 104 Single point information (alerts: 1)
+	[1:52150:1] PROTOCOL-SCADA IEC 104 M_SP_NA_1 (alerts: 1)
+	[1:52185:1] PROTOCOL-SCADA IEC 104 M_EI_NA_1 (alerts: 1)
+	[1:52191:1] PROTOCOL-SCADA IEC 104 C_IC_NA_1 (alerts: 1)
+#####
+-- [0] ./T0846-Discovery-IEC104.pcapng
+++ [0] ./T0888-ScanInfo-MQTT-noAuth.pcapng
+
+##### T0888-ScanInfo-MQTT-noAuth.pcapng #####
+	[1:1917:16] INDICATOR-SCAN UPnP service discover attempt (alerts: 24)
+	[1:24303:7] PROTOCOL-ICMP IPv6 multicast neighbor add attempt (alerts: 2)
+#####
+-- [0] ./T0888-ScanInfo-MQTT-noAuth.pcapng
+++ [0] ./T0888-ScanInfo-MQTT.pcapng
+
+##### T0888-ScanInfo-MQTT.pcapng #####
+	No alerts
+#####
+-- [0] ./T0888-ScanInfo-MQTT.pcapng
+++ [0] ./T0888-ScanInfo-OPCUA-Nmap.pcapng
+
+##### T0888-ScanInfo-OPCUA-Nmap.pcapng #####
+	[1:41807:3] POLICY-OTHER SSLv3 Client Hello attempt (alerts: 4)
+	[1:44484:5] POLICY-OTHER SMBv1 protocol detection attempt (alerts: 1)
+	[1:44485:4] POLICY-OTHER SMBv1 protocol detection attempt (alerts: 1)
+	[1:44487:4] POLICY-OTHER SMBv1 protocol detection attempt (alerts: 1)
+	[1:49040:5] INDICATOR-COMPROMISE Microsoft Windows Terminal server RDP over non-standard port attempt (alerts: 1)
+#####
+-- [0] ./T0888-ScanInfo-OPCUA-Nmap.pcapng
+++ [0] ./T0888-ScanInfo-OPCUA-OpcScan.pcapng
+
+##### T0888-ScanInfo-OPCUA-OpcScan.pcapng #####
+	No alerts
+#####
+-- [0] ./T0888-ScanInfo-OPCUA-OpcScan.pcapng
+++ [0] ./T0888-ScanInfo-OmronFINS.pcapng
+
+##### T0888-ScanInfo-OmronFINS.pcapng #####
+	No alerts
+#####
+-- [0] ./T0888-ScanInfo-OmronFINS.pcapng
+

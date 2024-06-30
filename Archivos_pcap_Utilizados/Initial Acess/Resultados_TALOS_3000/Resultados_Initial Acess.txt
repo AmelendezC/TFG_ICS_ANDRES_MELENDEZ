@@ -1,0 +1,51 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+Commencing packet processing
+++ [0] ./T0848-RogueMaster-IEC-104.pcapng
+
+##### T0848-RogueMaster-IEC-104.pcapng #####
+	[1:1917:16] INDICATOR-SCAN UPnP service discover attempt (alerts: 5)
+	[1:41047:4] PROTOCOL-SCADA IEC 104 STARTDT ACT (alerts: 6)
+	[1:41048:4] PROTOCOL-SCADA IEC 104 STARTDT CON (alerts: 6)
+	[1:41049:4] PROTOCOL-SCADA IEC 104 STOPDT ACT (alerts: 1)
+	[1:41050:4] PROTOCOL-SCADA IEC 104 STOPDT CON (alerts: 1)
+	[1:41051:4] PROTOCOL-SCADA IEC 104 TESTFR ACT (alerts: 4)
+	[1:41052:4] PROTOCOL-SCADA IEC 104 TESTFR CON (alerts: 4)
+	[1:41054:4] PROTOCOL-SCADA IEC 104 Double point information (alerts: 8)
+	[1:41055:4] PROTOCOL-SCADA IEC 104 End of initialization (alerts: 1)
+	[1:41058:4] PROTOCOL-SCADA IEC 104 Interrogation command (alerts: 17)
+	[1:41061:4] PROTOCOL-SCADA IEC 104 Measured value (alerts: 7)
+	[1:41070:4] PROTOCOL-SCADA IEC 104 Single point information (alerts: 8)
+	[1:41071:4] PROTOCOL-SCADA IEC 104 Step point information (alerts: 7)
+	[1:41074:4] PROTOCOL-SCADA IEC 104 clock sync command (alerts: 7)
+	[1:41075:4] PROTOCOL-SCADA IEC 104 counter interrogation command (alerts: 14)
+	[1:41078:4] PROTOCOL-SCADA IEC 104 traffic to/from EXTERNAL_NET (alerts: 40)
+	[1:41079:4] PROTOCOL-SCADA IEC 104 traffic to/from EXTERNAL_NET (alerts: 40)
+	[1:52150:1] PROTOCOL-SCADA IEC 104 M_SP_NA_1 (alerts: 9)
+	[1:52151:1] PROTOCOL-SCADA IEC 104 M_DP_NA_1 (alerts: 8)
+	[1:52152:1] PROTOCOL-SCADA IEC 104 M_ST_NA_1 (alerts: 7)
+	[1:52155:1] PROTOCOL-SCADA IEC 104 M_ME_NB_1 (alerts: 7)
+	[1:52185:1] PROTOCOL-SCADA IEC 104 M_EI_NA_1 (alerts: 1)
+	[1:52189:1] PROTOCOL-SCADA IEC 104 C_CI_NA_1 (alerts: 16)
+	[1:52191:1] PROTOCOL-SCADA IEC 104 C_IC_NA_1 (alerts: 19)
+	[1:52192:1] PROTOCOL-SCADA IEC 104 C_CS_NA_1 (alerts: 12)
+	[1:52193:1] PROTOCOL-SCADA IEC 104 C_RP_NA_1 (alerts: 4)
+#####
+-- [0] ./T0848-RogueMaster-IEC-104.pcapng
+++ [0] ./T0866-RemoteAccess-VNC.pcapng
+
+##### T0866-RemoteAccess-VNC.pcapng #####
+	[1:51018:1] SERVER-OTHER DualDesk v20 Proxy.exe long string denial of service attempt (alerts: 148)
+	[1:560:9] APP-DETECT VNC server response (alerts: 3)
+	[1:58160:1] INDICATOR-SHELLCODE Metasploit windows/meterpreter stage transfer attempt (alerts: 1)
+#####
+-- [0] ./T0866-RemoteAccess-VNC.pcapng
+++ [0] ./T0866-VulnAccess-SMBv1.pcapng
+
+##### T0866-VulnAccess-SMBv1.pcapng #####
+	[1:1917:16] INDICATOR-SCAN UPnP service discover attempt (alerts: 14)
+	[1:24303:7] PROTOCOL-ICMP IPv6 multicast neighbor add attempt (alerts: 2)
+#####
+-- [0] ./T0866-VulnAccess-SMBv1.pcapng
+

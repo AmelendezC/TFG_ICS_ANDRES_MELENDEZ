@@ -1,0 +1,13 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+
+Commencing packet processing
+++ [0] ./T0802-AutoCollect-SNMP.pcapng
+
+##### T0802-AutoCollect-SNMP.pcapng #####
+	[1:1411:21] PROTOCOL-SNMP public access udp (alerts: 45)
+	[1:1417:18] PROTOCOL-SNMP request udp (alerts: 45)
+#####
+-- [0] ./T0802-AutoCollect-SNMP.pcapng
+

@@ -1,0 +1,36 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+Commencing packet processing
+++ [0] ./T0888-DiscoverInfo-DNP3.pcapng
+
+##### T0888-DiscoverInfo-DNP3.pcapng #####
+	[1:1917:16] INDICATOR-SCAN UPnP service discover attempt (alerts: 4)
+#####
+-- [0] ./T0888-DiscoverInfo-DNP3.pcapng
+++ [0] ./T0888-DiscverCoils-Modbus.pcapng
+
+##### T0888-DiscverCoils-Modbus.pcapng #####
+	[1:17788:5] PROTOCOL-SCADA Modbus read coils from external source (alerts: 1)
+#####
+-- [0] ./T0888-DiscverCoils-Modbus.pcapng
+++ [0] ./T0888-DiscverFindID-Modbus.pcapng
+
+##### T0888-DiscverFindID-Modbus.pcapng #####
+	[1:15071:5] PROTOCOL-SCADA Modbus exception returned (alerts: 1)
+	[1:17789:5] PROTOCOL-SCADA Modbus read input register from external source (alerts: 17)
+#####
+-- [0] ./T0888-DiscverFindID-Modbus.pcapng
+++ [0] ./T0888-DiscverRegisters-Modbus.pcapng
+
+##### T0888-DiscverRegisters-Modbus.pcapng #####
+	[1:17790:5] PROTOCOL-SCADA Modbus read holding registers from external source (alerts: 1)
+#####
+-- [0] ./T0888-DiscverRegisters-Modbus.pcapng
+++ [0] ./T0888-DiscverRegisters2-Modbus.pcapng
+
+##### T0888-DiscverRegisters2-Modbus.pcapng #####
+	[1:17790:5] PROTOCOL-SCADA Modbus read holding registers from external source (alerts: 1)
+#####
+-- [0] ./T0888-DiscverRegisters2-Modbus.pcapng
+

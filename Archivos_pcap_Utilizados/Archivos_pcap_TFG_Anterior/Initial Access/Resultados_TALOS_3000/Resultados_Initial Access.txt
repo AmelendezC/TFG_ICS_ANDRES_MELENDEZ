@@ -1,0 +1,11 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+Commencing packet processing
+++ [0] ./T0848-RogueMaster-DNP3-FIXED.pcapng
+
+##### T0848-RogueMaster-DNP3-FIXED.pcapng #####
+	[1:1917:16] INDICATOR-SCAN UPnP service discover attempt (alerts: 12)
+#####
+-- [0] ./T0848-RogueMaster-DNP3-FIXED.pcapng
+

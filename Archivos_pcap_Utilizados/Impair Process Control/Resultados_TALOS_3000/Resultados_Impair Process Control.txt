@@ -1,0 +1,13 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+Commencing packet processing
+++ [0] ./T0836-ModifyParam-OmronFINS.pcapng
+
+##### T0836-ModifyParam-OmronFINS.pcapng #####
+	[1:15389:5] PROTOCOL-SCADA OMRON-FINS memory area write attempt (alerts: 1)
+	[1:15390:5] PROTOCOL-SCADA OMRON-FINS memory area fill attempt (alerts: 1)
+	[1:15391:5] PROTOCOL-SCADA OMRON-FINS memory area transfer attempt (alerts: 1)
+#####
+-- [0] ./T0836-ModifyParam-OmronFINS.pcapng
+

@@ -1,0 +1,26 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+Commencing packet processing
+++ [0] ./T0846-DiscoverMetasp-Modbus.pcapng
+
+##### T0846-DiscoverMetasp-Modbus.pcapng #####
+	[1:15071:5] PROTOCOL-SCADA Modbus exception returned (alerts: 1)
+	[1:17789:5] PROTOCOL-SCADA Modbus read input register from external source (alerts: 1)
+#####
+-- [0] ./T0846-DiscoverMetasp-Modbus.pcapng
+++ [0] ./T0846-DiscoveryNmap-Modbus.pcapng
+
+##### T0846-DiscoveryNmap-Modbus.pcapng #####
+	[1:15071:5] PROTOCOL-SCADA Modbus exception returned (alerts: 2)
+	[1:17798:5] PROTOCOL-SCADA Modbus report slave id from external source (alerts: 1)
+	[1:17799:5] PROTOCOL-SCADA Modbus read device identification from external source (alerts: 1)
+#####
+-- [0] ./T0846-DiscoveryNmap-Modbus.pcapng
+++ [0] ./T0846-DiscoveryNmap-S7.pcapng
+
+##### T0846-DiscoveryNmap-S7.pcapng #####
+	No alerts
+#####
+-- [0] ./T0846-DiscoveryNmap-S7.pcapng
+

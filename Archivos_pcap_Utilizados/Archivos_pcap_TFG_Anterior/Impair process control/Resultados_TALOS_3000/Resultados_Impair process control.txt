@@ -1,0 +1,17 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+Commencing packet processing
+++ [0] ./T0836-ModifParam-Modbus.pcapng
+
+##### T0836-ModifParam-Modbus.pcapng #####
+	[1:17783:5] PROTOCOL-SCADA Modbus write single register from external source (alerts: 1)
+#####
+-- [0] ./T0836-ModifParam-Modbus.pcapng
+++ [0] ./T0836-ModifParam-S7.pcapng
+
+##### T0836-ModifParam-S7.pcapng #####
+	No alerts
+#####
+-- [0] ./T0836-ModifParam-S7.pcapng
+

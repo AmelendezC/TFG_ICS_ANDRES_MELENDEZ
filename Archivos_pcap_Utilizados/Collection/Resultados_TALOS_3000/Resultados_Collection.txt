@@ -1,0 +1,24 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+
+Commencing packet processing
+++ [0] ./T0802-AutoCollect-OPCUA.pcapng
+
+##### T0802-AutoCollect-OPCUA.pcapng #####
+	[1:1917:16] INDICATOR-SCAN UPnP service discover attempt (alerts: 8)
+#####
+-- [0] ./T0802-AutoCollect-OPCUA.pcapng
+++ [0] ./T0830-MITM-BacNet-FIXED.pcapng
+
+##### T0830-MITM-BacNet-FIXED.pcapng #####
+	No alerts
+#####
+-- [0] ./T0830-MITM-BacNet-FIXED.pcapng
+++ [0] ./T0861-InfoCollect-OPCUA.pcapng
+
+##### T0861-InfoCollect-OPCUA.pcapng #####
+	No alerts
+#####
+-- [0] ./T0861-InfoCollect-OPCUA.pcapng
+
