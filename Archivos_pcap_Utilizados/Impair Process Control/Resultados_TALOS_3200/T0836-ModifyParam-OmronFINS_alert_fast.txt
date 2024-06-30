@@ -1,0 +1,3 @@
+04/24-20:43:35.460002 [**] [1:15389:5]  <T0836-ModifyParam-OmronFINS.pcapng> "PROTOCOL-SCADA OMRON-FINS memory area write attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 192.168.1.134:62888 -> 192.168.1.135:9600
+04/24-20:55:54.439029 [**] [1:15390:5]  <T0836-ModifyParam-OmronFINS.pcapng> "PROTOCOL-SCADA OMRON-FINS memory area fill attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 192.168.1.134:61263 -> 192.168.1.135:9600
+04/24-21:00:14.291621 [**] [1:15391:5]  <T0836-ModifyParam-OmronFINS.pcapng> "PROTOCOL-SCADA OMRON-FINS memory area transfer attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 192.168.1.134:59386 -> 192.168.1.135:9600
