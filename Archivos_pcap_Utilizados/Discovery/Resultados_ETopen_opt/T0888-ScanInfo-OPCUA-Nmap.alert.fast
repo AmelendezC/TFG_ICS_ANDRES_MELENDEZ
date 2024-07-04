@@ -1,0 +1,3 @@
+04/04-00:29:32.342608  [**] [1:2009582:3] ET SCAN NMAP -sS window 1024 [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.135:62660 -> 192.168.1.134:4897
+04/04-00:29:32.342608  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.135:62660 -> 192.168.1.134:4897
+04/04-00:29:32.342608  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.135:62660 -> 192.168.1.134:4897
