@@ -1,0 +1,26 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+Commencing packet processing
+++ [0] ./T0814-DoS-OPCUA-Short.pcapng
+
+##### T0814-DoS-OPCUA-Short.pcapng #####
+	No alerts
+#####
+-- [0] ./T0814-DoS-OPCUA-Short.pcapng
+++ [0] ./T0816-RestartAllenBradley-SNMP.pcapng
+
+##### T0816-RestartAllenBradley-SNMP.pcapng #####
+	[1:39876:3] PROTOCOL-SNMP Allen-Bradley MicroLogix PLC SNMP request via undocumented community string attempt (alerts: 1)
+	[1:39877:3] PROTOCOL-SNMP Allen-Bradley MicroLogix PLC firmware update detected (alerts: 1)
+	[1:402:16] PROTOCOL-ICMP destination unreachable port unreachable packet detected (alerts: 6)
+	[1:44663:2] SERVER-OTHER Mikrotik RouterOS SNMP security bypass attempt (alerts: 1)
+#####
+-- [0] ./T0816-RestartAllenBradley-SNMP.pcapng
+++ [0] ./T0816-StopCommand-S7Comm.pcapng
+
+##### T0816-StopCommand-S7Comm.pcapng #####
+	No alerts
+#####
+-- [0] ./T0816-StopCommand-S7Comm.pcapng
+

@@ -1,0 +1,53 @@
+--------------------------------------------------
+o")~   Snort++ 3.1.31.0
+--------------------------------------------------
+Commencing packet processing
+++ [0] ./1-S7comm-VarService-Read-DB1DBD0.pcapng
+
+##### 1-S7comm-VarService-Read-DB1DBD0.pcapng #####
+	No alerts
+#####
+-- [0] ./1-S7comm-VarService-Read-DB1DBD0.pcapng
+++ [0] ./bacnet_test.pcapng
+
+##### bacnet_test.pcapng #####
+	No alerts
+#####
+-- [0] ./bacnet_test.pcapng
+++ [0] ./enip_test.pcapng
+
+##### enip_test.pcapng #####
+	No alerts
+#####
+-- [0] ./enip_test.pcapng
+++ [0] ./omron3.pcapng
+
+##### omron3.pcapng #####
+	[1:1390:17] INDICATOR-SHELLCODE x86 inc ebx NOOP (alerts: 6)
+	[1:1394:17] INDICATOR-SHELLCODE x86 inc ecx NOOP (alerts: 4)
+	[1:15389:5] PROTOCOL-SCADA OMRON-FINS memory area write attempt (alerts: 1)
+	[1:15390:5] PROTOCOL-SCADA OMRON-FINS memory area fill attempt (alerts: 1)
+	[1:15391:5] PROTOCOL-SCADA OMRON-FINS memory area transfer attempt (alerts: 1)
+	[1:15392:5] PROTOCOL-SCADA OMRON-FINS parameter area write attempt (alerts: 1)
+	[1:15393:5] PROTOCOL-SCADA OMRON-FINS parameter area clear attempt (alerts: 1)
+	[1:15394:5] PROTOCOL-SCADA OMRON-FINS program area protect attempt (alerts: 1)
+	[1:15395:5] PROTOCOL-SCADA OMRON-FINS program area protect clear attempt (alerts: 1)
+	[1:15396:5] PROTOCOL-SCADA OMRON-FINS program area write attempt (alerts: 1)
+	[1:15397:5] PROTOCOL-SCADA OMRON-FINS program area clear attempt (alerts: 1)
+	[1:15398:5] PROTOCOL-SCADA OMRON-FINS RUN attempt (alerts: 4)
+	[1:15399:5] PROTOCOL-SCADA OMRON-FINS STOP attempt (alerts: 1)
+	[1:15400:5] PROTOCOL-SCADA OMRON-FINS clock write attempt (alerts: 2)
+	[1:15401:5] PROTOCOL-SCADA OMRON-FINS access right acquire attempt (alerts: 1)
+	[1:15402:5] PROTOCOL-SCADA OMRON-FINS access right forced acquire attempt (alerts: 1)
+	[1:15403:5] PROTOCOL-SCADA OMRON-FINS single file write attempt (alerts: 1)
+	[1:15404:5] PROTOCOL-SCADA OMRON-FINS file delete attempt (alerts: 2)
+	[1:15405:5] PROTOCOL-SCADA OMRON-FINS forced set/reset attempt (alerts: 2)
+	[1:15406:5] PROTOCOL-SCADA OMRON-FINS forced set/reset cancel attempt (alerts: 2)
+	[1:15407:5] PROTOCOL-SCADA OMRON-FINS file memory write attempt (alerts: 1)
+	[1:15408:5] PROTOCOL-SCADA OMRON-FINS data link table write attempt (alerts: 1)
+	[1:15410:5] PROTOCOL-SCADA OMRON-FINS name delete attempt (alerts: 1)
+	[1:15411:5] PROTOCOL-SCADA OMRON-FINS memory card format attempt (alerts: 1)
+	[1:15412:5] PROTOCOL-SCADA OMRON-FINS memory area write overflow attempt (alerts: 1)
+#####
+-- [0] ./omron3.pcapng
+

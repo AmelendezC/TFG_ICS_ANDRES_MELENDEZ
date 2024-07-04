@@ -1,0 +1,2 @@
+03/26-12:30:23.601356  [**] [1:2027397:2] ET POLICY Spotify P2P Client [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 192.168.1.39:57621 -> 192.168.1.255:57621
+03/26-12:30:36.287506  [**] [1:2001581:14] ET SCAN Behavioral Unusual Port 135 traffic Potential Scan or Infection [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:55270 -> 192.168.1.200:135
