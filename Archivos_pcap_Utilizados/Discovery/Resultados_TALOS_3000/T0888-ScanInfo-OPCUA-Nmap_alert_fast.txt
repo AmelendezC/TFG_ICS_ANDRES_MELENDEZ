@@ -1,0 +1,1 @@
+04/04-00:30:02.793751 [**] [1:49040:5] "INDICATOR-COMPROMISE Microsoft Windows Terminal server RDP over non-standard port attempt" [**] [Classification: Attempted User Privilege Gain] [Priority: 1] {TCP} 192.168.1.135:39636 -> 192.168.1.134:53530
