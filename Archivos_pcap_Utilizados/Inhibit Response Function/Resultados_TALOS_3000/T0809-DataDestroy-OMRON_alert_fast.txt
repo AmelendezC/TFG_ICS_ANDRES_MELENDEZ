@@ -1,0 +1,40 @@
+01/27-22:44:42.809819 [**] [1:15412:5] "PROTOCOL-SCADA OMRON-FINS memory area write overflow attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.809819 [**] [1:15389:5] "PROTOCOL-SCADA OMRON-FINS memory area write attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.809846 [**] [1:15390:5] "PROTOCOL-SCADA OMRON-FINS memory area fill attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.809929 [**] [1:15391:5] "PROTOCOL-SCADA OMRON-FINS memory area transfer attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810081 [**] [1:15392:5] "PROTOCOL-SCADA OMRON-FINS parameter area write attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810135 [**] [1:15408:5] "PROTOCOL-SCADA OMRON-FINS data link table write attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810162 [**] [1:15393:5] "PROTOCOL-SCADA OMRON-FINS parameter area clear attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810188 [**] [1:15394:5] "PROTOCOL-SCADA OMRON-FINS program area protect attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810214 [**] [1:15395:5] "PROTOCOL-SCADA OMRON-FINS program area protect clear attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810268 [**] [1:15396:5] "PROTOCOL-SCADA OMRON-FINS program area write attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810293 [**] [1:15397:5] "PROTOCOL-SCADA OMRON-FINS program area clear attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810318 [**] [1:15398:5] "PROTOCOL-SCADA OMRON-FINS RUN attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810343 [**] [1:15398:5] "PROTOCOL-SCADA OMRON-FINS RUN attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810373 [**] [1:15398:5] "PROTOCOL-SCADA OMRON-FINS RUN attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810398 [**] [1:15398:5] "PROTOCOL-SCADA OMRON-FINS RUN attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810423 [**] [1:15399:5] "PROTOCOL-SCADA OMRON-FINS STOP attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810704 [**] [1:15400:5] "PROTOCOL-SCADA OMRON-FINS clock write attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.810735 [**] [1:15400:5] "PROTOCOL-SCADA OMRON-FINS clock write attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811010 [**] [1:15401:5] "PROTOCOL-SCADA OMRON-FINS access right acquire attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811035 [**] [1:15402:5] "PROTOCOL-SCADA OMRON-FINS access right forced acquire attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811265 [**] [1:15403:5] "PROTOCOL-SCADA OMRON-FINS single file write attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811290 [**] [1:15411:5] "PROTOCOL-SCADA OMRON-FINS memory card format attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811316 [**] [1:15404:5] "PROTOCOL-SCADA OMRON-FINS file delete attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811344 [**] [1:15404:5] "PROTOCOL-SCADA OMRON-FINS file delete attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811637 [**] [1:1394:17] "INDICATOR-SHELLCODE x86 inc ecx NOOP" [**] [Classification: Executable code was detected] [Priority: 1] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811637 [**] [1:15407:5] "PROTOCOL-SCADA OMRON-FINS file memory write attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811680 [**] [1:15406:5] "PROTOCOL-SCADA OMRON-FINS forced set/reset cancel attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811680 [**] [1:15405:5] "PROTOCOL-SCADA OMRON-FINS forced set/reset attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811694 [**] [1:15406:5] "PROTOCOL-SCADA OMRON-FINS forced set/reset cancel attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811694 [**] [1:15405:5] "PROTOCOL-SCADA OMRON-FINS forced set/reset attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.811726 [**] [1:15410:5] "PROTOCOL-SCADA OMRON-FINS name delete attempt" [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.813407 [**] [1:1390:17] "INDICATOR-SHELLCODE x86 inc ebx NOOP" [**] [Classification: Executable code was detected] [Priority: 1] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.813430 [**] [1:1390:17] "INDICATOR-SHELLCODE x86 inc ebx NOOP" [**] [Classification: Executable code was detected] [Priority: 1] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.813454 [**] [1:1390:17] "INDICATOR-SHELLCODE x86 inc ebx NOOP" [**] [Classification: Executable code was detected] [Priority: 1] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.813475 [**] [1:1390:17] "INDICATOR-SHELLCODE x86 inc ebx NOOP" [**] [Classification: Executable code was detected] [Priority: 1] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.813545 [**] [1:1390:17] "INDICATOR-SHELLCODE x86 inc ebx NOOP" [**] [Classification: Executable code was detected] [Priority: 1] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.813660 [**] [1:1394:17] "INDICATOR-SHELLCODE x86 inc ecx NOOP" [**] [Classification: Executable code was detected] [Priority: 1] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.813822 [**] [1:1394:17] "INDICATOR-SHELLCODE x86 inc ecx NOOP" [**] [Classification: Executable code was detected] [Priority: 1] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.813822 [**] [1:1390:17] "INDICATOR-SHELLCODE x86 inc ebx NOOP" [**] [Classification: Executable code was detected] [Priority: 1] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
+01/27-22:44:42.814314 [**] [1:1394:17] "INDICATOR-SHELLCODE x86 inc ecx NOOP" [**] [Classification: Executable code was detected] [Priority: 1] {UDP} 10.4.14.102:58722 -> 10.130.130.130:9600
