@@ -15,8 +15,7 @@ for LOG_FILE in *.log; do
       service=$(echo "$line" | grep -o 'service="[^"]*"' | cut -d '"' -f2)
       srcip=$(echo "$line" | grep -o 'srcip=[^ ]*' | cut -d '=' -f2)
       dstip=$(echo "$line" | grep -o 'dstip=[^ ]*' | cut -d '=' -f2)
-      subtype="ips"
-      eventtype="signature"
+      
       
       echo -e "$attackid\t$severity\t$attack\t$service\t$srcip\t$dstip\t$subtype\t$eventtype" >> "$OUTPUT_CSV"
     done
