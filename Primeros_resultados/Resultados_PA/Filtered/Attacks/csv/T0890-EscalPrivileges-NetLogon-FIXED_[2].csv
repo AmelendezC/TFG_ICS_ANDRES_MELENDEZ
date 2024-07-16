@@ -1,0 +1,2 @@
+ID_regla	severity	severity_number	Nombre_regla	thread_category	prot	src_ip	dst_ip	log_subtype	extra_data
+Microsoft Netlogon Elevation of Privilege Vulnerability(59336)	critical	5	Microsoft Netlogon Elevation of Privilege Vulnerability(59336)	info-leak	tcp	192.168.1.135	192.168.1.200	vulnerability	

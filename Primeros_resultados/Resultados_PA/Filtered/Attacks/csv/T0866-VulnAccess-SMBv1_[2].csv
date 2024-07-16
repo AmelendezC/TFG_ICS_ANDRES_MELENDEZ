@@ -1,0 +1,7 @@
+ID_regla	severity	severity_number	Nombre_regla	thread_category	prot	src_ip	dst_ip	log_subtype	extra_data
+Nmap Aggressive Option Print Detection(94318)	low	2	Nmap Aggressive Option Print Detection(94318)	hacktool	tcp	192.168.1.135	192.168.1.201	vulnerability	
+Windows SMB Login Attempt(31696)	informational	1	Windows SMB Login Attempt(31696)	brute-force	tcp	192.168.1.135	192.168.1.201	vulnerability	
+Microsoft Windows SMB Negotiate Request(35364)	informational	1	Microsoft Windows SMB Negotiate Request(35364)	brute-force	tcp	192.168.1.135	192.168.1.201	vulnerability	
+NetBIOS null session(31710)	informational	1	NetBIOS null session(31710)	info-leak	tcp	192.168.1.135	192.168.1.201	vulnerability	
+SMB DoublePulsar Ping Detection(39592)	high	4	SMB DoublePulsar Ping Detection(39592)	code-execution	tcp	192.168.1.135	192.168.1.201	vulnerability	
+DoublePulsar.Gen Command and Control Traffic(12096)	critical	5	DoublePulsar.Gen Command and Control Traffic(12096)	spyware	tcp	192.168.1.135	192.168.1.201	spyware	
