@@ -149,3 +149,4 @@
 04/04-00:11:41.414165 [**] [1:51018:1] "SERVER-OTHER DualDesk v20 Proxy.exe long string denial of service attempt" [**] [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.135:45957 -> 192.168.1.200:5900
 04/04-00:11:41.647939 [**] [1:51018:1] "SERVER-OTHER DualDesk v20 Proxy.exe long string denial of service attempt" [**] [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.135:45957 -> 192.168.1.200:5900
 04/04-00:11:41.851249 [**] [1:51018:1] "SERVER-OTHER DualDesk v20 Proxy.exe long string denial of service attempt" [**] [Classification: Attempted Denial of Service] [Priority: 2] {TCP} 192.168.1.135:45957 -> 192.168.1.200:5900
+04/04-00:11:43.193435 [**] [1:58160:1] "INDICATOR-SHELLCODE Metasploit windows/meterpreter stage transfer attempt" [**] [Classification: Executable code was detected] [Priority: 1] {TCP} 192.168.1.135:4444 -> 192.168.1.200:51170
