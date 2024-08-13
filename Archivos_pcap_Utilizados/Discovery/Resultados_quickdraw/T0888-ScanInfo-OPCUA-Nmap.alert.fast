@@ -1,0 +1,8 @@
+08/05-19:49:29.604541  [**] [1:1228:7] SCAN nmap XMAS [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.241:51493 -> 192.168.1.195:43613
+08/05-19:49:29.783223  [**] [1:1228:7] SCAN nmap XMAS [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.241:51493 -> 192.168.1.195:43613
+08/05-19:49:29.961900  [**] [1:1228:7] SCAN nmap XMAS [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.241:51493 -> 192.168.1.195:43613
+08/05-19:49:30.141758  [**] [1:1228:7] SCAN nmap XMAS [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.241:51493 -> 192.168.1.195:43613
+08/05-19:49:32.023556  [**] [1:1228:7] SCAN nmap XMAS [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.241:51493 -> 192.168.1.195:30490
+08/05-19:49:32.201490  [**] [1:1228:7] SCAN nmap XMAS [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.241:51493 -> 192.168.1.195:30490
+08/05-19:49:32.383917  [**] [1:1228:7] SCAN nmap XMAS [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.241:51493 -> 192.168.1.195:30490
+08/05-19:49:32.562696  [**] [1:1228:7] SCAN nmap XMAS [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.241:51493 -> 192.168.1.195:30490
