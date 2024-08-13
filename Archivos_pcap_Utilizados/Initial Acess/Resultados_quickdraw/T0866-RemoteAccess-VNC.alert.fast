@@ -1,0 +1,12 @@
+04/04-00:04:09.393209  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.200:5900 -> 192.168.1.135:38967
+04/04-00:04:09.393705  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:38967 -> 192.168.1.200:5900
+04/04-00:10:28.491342  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.200:5900 -> 192.168.1.135:46327
+04/04-00:10:28.492342  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:46327 -> 192.168.1.200:5900
+04/04-00:11:06.722881  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.200:5900 -> 192.168.1.135:45957
+04/04-00:11:06.723620  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:45957 -> 192.168.1.200:5900
+04/04-00:04:09.393209  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.200:5900 -> 192.168.1.135:38967
+04/04-00:04:09.393705  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:38967 -> 192.168.1.200:5900
+04/04-00:10:28.491342  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.200:5900 -> 192.168.1.135:46327
+04/04-00:10:28.492342  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:46327 -> 192.168.1.200:5900
+04/04-00:11:06.722881  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.200:5900 -> 192.168.1.135:45957
+04/04-00:11:06.723620  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:45957 -> 192.168.1.200:5900
