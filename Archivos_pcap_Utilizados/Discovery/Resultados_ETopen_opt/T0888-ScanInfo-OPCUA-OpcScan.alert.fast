@@ -1,4 +1,12 @@
-04/04-00:40:07.266272  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.135:36556 -> 192.168.1.134:49320
-04/04-00:40:07.266272  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.135:36556 -> 192.168.1.134:49320
-04/04-00:47:59.787416  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.135:34390 -> 192.168.1.134:53530
-04/04-00:47:59.787416  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.135:34390 -> 192.168.1.134:53530
+08/05-19:34:44.388691  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:58278
+08/05-19:34:44.388691  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:58278
+08/05-19:34:44.421801  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.241:58278 -> 192.168.1.195:4840
+08/05-19:34:44.421801  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.241:58278 -> 192.168.1.195:4840
+08/05-19:34:58.869406  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39924
+08/05-19:34:58.943703  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:58.966024  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:58.986681  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:59.005460  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:59.025672  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:59.044790  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:59.062452  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
