@@ -1,0 +1,9 @@
+03/26-12:30:36.505877  [**] [112:2:1] (spp_arpspoof) Ethernet/ARP Mismatch request for Source [**] 
+03/26-12:30:36.810106  [**] [112:2:1] (spp_arpspoof) Ethernet/ARP Mismatch request for Source [**] 
+03/26-12:30:38.689270  [**] [112:2:1] (spp_arpspoof) Ethernet/ARP Mismatch request for Source [**] 
+03/26-12:30:48.090387  [**] [112:2:1] (spp_arpspoof) Ethernet/ARP Mismatch request for Source [**] 
+03/15-22:20:32.647765  [**] [1:2465:7] NETBIOS SMB-DS IPC$ share access [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.135:58536 -> 192.168.1.201:445
+03/15-22:20:33.191625  [**] [1:2465:7] NETBIOS SMB-DS IPC$ share access [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.135:46424 -> 192.168.1.201:445
+03/15-22:20:41.610528  [**] [1:2466:7] NETBIOS SMB-DS IPC$ unicode share access [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.135:46436 -> 192.168.1.201:445
+03/15-22:20:59.670064  [**] [1:2466:7] NETBIOS SMB-DS IPC$ unicode share access [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.135:48922 -> 192.168.1.201:445
+03/15-22:21:17.882159  [**] [1:2466:7] NETBIOS SMB-DS IPC$ unicode share access [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 192.168.1.135:49250 -> 192.168.1.201:445
