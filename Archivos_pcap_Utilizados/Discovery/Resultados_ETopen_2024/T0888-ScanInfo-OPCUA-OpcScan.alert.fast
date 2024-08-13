@@ -1,0 +1,8 @@
+08/05-19:34:58.869406  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39924
+08/05-19:34:58.943703  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:58.966024  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:58.986681  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:59.005460  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:59.025672  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:59.044790  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
+08/05-19:34:59.062452  [**] [129:12:1] Consecutive TCP small segments exceeding threshold [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.195:4840 -> 192.168.1.241:39928
