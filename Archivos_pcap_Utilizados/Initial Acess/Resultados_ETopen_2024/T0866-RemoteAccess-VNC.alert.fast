@@ -6,11 +6,3 @@
 04/04-00:11:06.723620  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:45957 -> 192.168.1.200:5900
 04/04-00:11:43.191466  [**] [1:2035480:3] ET INFO PE EXE Download over raw TCP [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:4444 -> 192.168.1.200:51170
 04/04-00:11:43.193435  [**] [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 192.168.1.135:4444 -> 192.168.1.200:51170
-04/04-00:04:09.393209  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.200:5900 -> 192.168.1.135:38967
-04/04-00:04:09.393705  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:38967 -> 192.168.1.200:5900
-04/04-00:10:28.491342  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.200:5900 -> 192.168.1.135:46327
-04/04-00:10:28.492342  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:46327 -> 192.168.1.200:5900
-04/04-00:11:06.722881  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.200:5900 -> 192.168.1.135:45957
-04/04-00:11:06.723620  [**] [1:560:6] POLICY VNC server response [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:45957 -> 192.168.1.200:5900
-04/04-00:11:43.191466  [**] [1:2035480:3] ET INFO PE EXE Download over raw TCP [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.135:4444 -> 192.168.1.200:51170
-04/04-00:11:43.193435  [**] [1:2025644:1] ET TROJAN Possible Metasploit Payload Common Construct Bind_API (from server) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 192.168.1.135:4444 -> 192.168.1.200:51170
