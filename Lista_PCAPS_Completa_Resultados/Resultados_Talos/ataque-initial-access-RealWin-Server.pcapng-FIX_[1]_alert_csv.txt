@@ -1,0 +1,34 @@
+04/14-21:29:50.884313, 10, ICMP, raw, 104, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:18474:4, allow, "PROTOCOL-ICMP ICMPv6 Echo Request", Misc activity
+04/14-21:29:50.884393, 11, ICMP, raw, 104, C2S, fe80::a00:27ff:fe50:4c14:0, fe80::3657:60ff:fedb:a42f:0, 1:18473:4, allow, "PROTOCOL-ICMP ICMPv6 Echo Reply", Misc activity
+04/14-21:29:51.884740, 14, ICMP, raw, 104, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:18474:4, allow, "PROTOCOL-ICMP ICMPv6 Echo Request", Misc activity
+04/14-21:29:51.884799, 15, ICMP, raw, 104, C2S, fe80::a00:27ff:fe50:4c14:0, fe80::3657:60ff:fedb:a42f:0, 1:18473:4, allow, "PROTOCOL-ICMP ICMPv6 Echo Reply", Misc activity
+04/14-21:29:56.113314, 184, ICMP, raw, 72, C2S, fe80::a00:27ff:fe50:4c14:0, fe80::3657:60ff:fedb:a42f:0, 1:24303:7, allow, "PROTOCOL-ICMP IPv6 multicast neighbor add attempt", Misc activity
+04/14-21:29:57.916775, 187, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:29:57.916775, 188, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:29:57.916775, 189, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
+04/14-21:29:57.916775, 190, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
+04/14-21:30:01.127658, 206, ICMP, raw, 72, C2S, fe80::3657:60ff:fedb:a42f:0, fe80::a00:27ff:fe50:4c14:0, 1:24303:7, allow, "PROTOCOL-ICMP IPv6 multicast neighbor add attempt", Misc activity
+04/14-21:30:07.933068, 217, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:30:07.933068, 218, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:30:07.933069, 219, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
+04/14-21:30:07.933069, 220, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
+04/14-21:30:17.948546, 229, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:30:17.948546, 230, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:30:17.948546, 231, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
+04/14-21:30:17.948546, 232, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
+04/14-21:30:27.964727, 243, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:30:27.964727, 244, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:30:27.964727, 245, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
+04/14-21:30:27.964727, 246, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
+04/14-21:30:37.906800, 255, UDP, raw, 202, C2S, 192.168.1.61:54998, 239.255.255.250:1900, 1:1917:16, allow, "INDICATOR-SCAN UPnP service discover attempt", Detection of a Network Scan
+04/14-21:30:37.980857, 256, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:30:37.980857, 257, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:30:37.980857, 258, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
+04/14-21:30:37.980858, 259, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
+04/14-21:30:38.907745, 266, UDP, raw, 202, C2S, 192.168.1.61:54998, 239.255.255.250:1900, 1:1917:16, allow, "INDICATOR-SCAN UPnP service discover attempt", Detection of a Network Scan
+04/14-21:30:39.909111, 267, UDP, raw, 202, C2S, 192.168.1.61:54998, 239.255.255.250:1900, 1:1917:16, allow, "INDICATOR-SCAN UPnP service discover attempt", Detection of a Network Scan
+04/14-21:30:40.909807, 268, UDP, raw, 202, C2S, 192.168.1.61:54998, 239.255.255.250:1900, 1:1917:16, allow, "INDICATOR-SCAN UPnP service discover attempt", Detection of a Network Scan
+04/14-21:30:47.997091, 283, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:30:47.997091, 284, IP, raw, 32, C2S, 192.168.1.1:0, 224.0.0.1:0, 1:51037:1, allow, "POLICY-OTHER IGMP membership query attempt", Generic Protocol Command Decode
+04/14-21:30:47.997091, 285, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
+04/14-21:30:47.997091, 286, ICMP, raw, 76, C2S, fe80::3657:60ff:fedb:a42f:0, ff02::1:0, 1:24301:5, allow, "PROTOCOL-ICMP IPv6 MLD multicast listener query attempt", Misc activity
