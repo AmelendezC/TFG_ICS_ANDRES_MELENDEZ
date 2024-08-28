@@ -1,0 +1,796 @@
+--------------------------------------------------
+o")~   Snort++ 3.2.2.0
+--------------------------------------------------
+Loading /usr/local/snort/etc/snort/snort.lua:
+Loading snort_defaults.lua:
+Finished snort_defaults.lua:
+Loading file_magic.lua:
+Finished file_magic.lua:
+Loading talos.lua:
+Finished talos.lua:
+	snort
+	ssh
+	alert_talos
+	profiler
+	ips
+	stream_user
+	stream_file
+	output
+	arp_spoof
+	back_orifice
+	dns
+	file_id
+	pop
+	rpc_decode
+	ssl
+	telnet
+	cip
+	dnp3
+	gtp_inspect
+	mms
+	dce_http_proxy
+	s7commplus
+	dce_tcp
+	active
+	alerts
+	daq
+	decode
+	host_cache
+	host_tracker
+	network
+	packets
+	process
+	search_engine
+	so_proxy
+	imap
+	netflow
+	sip
+	iec104
+	modbus
+	dce_smb
+	dce_udp
+	dce_http_server
+	port_scan
+	smtp
+	ftp_server
+	ftp_client
+	ftp_data
+	http_inspect
+	http2_inspect
+	normalizer
+	file_policy
+	js_norm
+	appid
+	wizard
+	binder
+	stream_udp
+	stream_tcp
+	stream_icmp
+	stream_ip
+	stream
+	references
+	classifications
+	alert_csv
+	alert_fast
+	hosts
+	trace
+Finished /usr/local/snort/etc/snort/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading ips.rules:
+Loading /usr/local/snort/rules/3200/includes.rules:
+Loading snort3-app-detect.rules:
+Finished snort3-app-detect.rules:
+Loading snort3-browser-chrome.rules:
+Finished snort3-browser-chrome.rules:
+Loading snort3-browser-firefox.rules:
+Finished snort3-browser-firefox.rules:
+Loading snort3-browser-ie.rules:
+Finished snort3-browser-ie.rules:
+Loading snort3-browser-other.rules:
+Finished snort3-browser-other.rules:
+Loading snort3-browser-plugins.rules:
+Finished snort3-browser-plugins.rules:
+Loading snort3-browser-webkit.rules:
+Finished snort3-browser-webkit.rules:
+Loading snort3-content-replace.rules:
+Finished snort3-content-replace.rules:
+Loading snort3-exploit-kit.rules:
+Finished snort3-exploit-kit.rules:
+Loading snort3-file-executable.rules:
+Finished snort3-file-executable.rules:
+Loading snort3-file-flash.rules:
+Finished snort3-file-flash.rules:
+Loading snort3-file-identify.rules:
+Finished snort3-file-identify.rules:
+Loading snort3-file-image.rules:
+Finished snort3-file-image.rules:
+Loading snort3-file-java.rules:
+Finished snort3-file-java.rules:
+Loading snort3-file-multimedia.rules:
+Finished snort3-file-multimedia.rules:
+Loading snort3-file-office.rules:
+Finished snort3-file-office.rules:
+Loading snort3-file-other.rules:
+Finished snort3-file-other.rules:
+Loading snort3-file-pdf.rules:
+Finished snort3-file-pdf.rules:
+Loading snort3-indicator-compromise.rules:
+Finished snort3-indicator-compromise.rules:
+Loading snort3-indicator-obfuscation.rules:
+Finished snort3-indicator-obfuscation.rules:
+Loading snort3-indicator-scan.rules:
+Finished snort3-indicator-scan.rules:
+Loading snort3-indicator-shellcode.rules:
+Finished snort3-indicator-shellcode.rules:
+Loading snort3-malware-backdoor.rules:
+Finished snort3-malware-backdoor.rules:
+Loading snort3-malware-cnc.rules:
+Finished snort3-malware-cnc.rules:
+Loading snort3-malware-other.rules:
+Finished snort3-malware-other.rules:
+Loading snort3-malware-tools.rules:
+Finished snort3-malware-tools.rules:
+Loading snort3-netbios.rules:
+Finished snort3-netbios.rules:
+Loading snort3-os-linux.rules:
+Finished snort3-os-linux.rules:
+Loading snort3-os-mobile.rules:
+Finished snort3-os-mobile.rules:
+Loading snort3-os-other.rules:
+Finished snort3-os-other.rules:
+Loading snort3-os-solaris.rules:
+Finished snort3-os-solaris.rules:
+Loading snort3-os-windows.rules:
+Finished snort3-os-windows.rules:
+Loading snort3-policy-multimedia.rules:
+Finished snort3-policy-multimedia.rules:
+Loading snort3-policy-other.rules:
+Finished snort3-policy-other.rules:
+Loading snort3-policy-social.rules:
+Finished snort3-policy-social.rules:
+Loading snort3-policy-spam.rules:
+Finished snort3-policy-spam.rules:
+Loading snort3-protocol-dns.rules:
+Finished snort3-protocol-dns.rules:
+Loading snort3-protocol-finger.rules:
+Finished snort3-protocol-finger.rules:
+Loading snort3-protocol-ftp.rules:
+Finished snort3-protocol-ftp.rules:
+Loading snort3-protocol-icmp.rules:
+Finished snort3-protocol-icmp.rules:
+Loading snort3-protocol-imap.rules:
+Finished snort3-protocol-imap.rules:
+Loading snort3-protocol-nntp.rules:
+Finished snort3-protocol-nntp.rules:
+Loading snort3-protocol-other.rules:
+Finished snort3-protocol-other.rules:
+Loading snort3-protocol-pop.rules:
+Finished snort3-protocol-pop.rules:
+Loading snort3-protocol-rpc.rules:
+Finished snort3-protocol-rpc.rules:
+Loading snort3-protocol-scada.rules:
+Finished snort3-protocol-scada.rules:
+Loading snort3-protocol-services.rules:
+Finished snort3-protocol-services.rules:
+Loading snort3-protocol-snmp.rules:
+Finished snort3-protocol-snmp.rules:
+Loading snort3-protocol-telnet.rules:
+Finished snort3-protocol-telnet.rules:
+Loading snort3-protocol-tftp.rules:
+Finished snort3-protocol-tftp.rules:
+Loading snort3-protocol-voip.rules:
+Finished snort3-protocol-voip.rules:
+Loading snort3-pua-adware.rules:
+Finished snort3-pua-adware.rules:
+Loading snort3-pua-other.rules:
+Finished snort3-pua-other.rules:
+Loading snort3-pua-p2p.rules:
+Finished snort3-pua-p2p.rules:
+Loading snort3-pua-toolbars.rules:
+Finished snort3-pua-toolbars.rules:
+Loading snort3-server-apache.rules:
+Finished snort3-server-apache.rules:
+Loading snort3-server-iis.rules:
+Finished snort3-server-iis.rules:
+Loading snort3-server-mail.rules:
+Finished snort3-server-mail.rules:
+Loading snort3-server-mssql.rules:
+Finished snort3-server-mssql.rules:
+Loading snort3-server-mysql.rules:
+Finished snort3-server-mysql.rules:
+Loading snort3-server-oracle.rules:
+Finished snort3-server-oracle.rules:
+Loading snort3-server-other.rules:
+Finished snort3-server-other.rules:
+Loading snort3-server-samba.rules:
+Finished snort3-server-samba.rules:
+Loading snort3-server-webapp.rules:
+Finished snort3-server-webapp.rules:
+Loading snort3-sql.rules:
+Finished snort3-sql.rules:
+Loading snort3-x11.rules:
+Finished snort3-x11.rules:
+Finished /usr/local/snort/rules/3200/includes.rules:
+Loading /usr/local/snort/rules/snort3-community-rules/snort3-community.rules:
+Finished /usr/local/snort/rules/snort3-community-rules/snort3-community.rules:
+Finished ips.rules:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0   45889    4022   45889    /usr/local/snort/etc/snort/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 45889
+          duplicate rules: 4022
+               text rules: 45889
+            option chains: 45889
+            chain headers: 46809
+                 flowbits: 712
+     flowbits not checked: 69
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any    1818     391     471     298
+     src    1240     157       0       0
+     dst    5302    1005       0       0
+    both     109      54       0       0
+   total    8469    1607     471     298
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                      bgp:        5       1
+                   dcerpc:     1341     804
+                     dhcp:       37      10
+                     dnp3:        0       6
+                      dns:      276     117
+                     drda:        5       0
+                     file:      684     695
+                  file_id:      219     219
+                      ftp:      196      24
+                 ftp-data:      769   10696
+                   gopher:        0       1
+                     http:    14820   14101
+                    http2:    14820   14101
+                    http3:    14820   14101
+                    ident:        1       0
+                     igmp:        1       1
+                     imap:      815   10947
+                      irc:       40      14
+                     ircd:        9       3
+                 java_rmi:       55       3
+                 kerberos:       33       6
+                     ldap:       47       6
+                      ldp:        1       0
+                   modbus:       34      10
+                    mysql:       67       7
+              netbios-dgm:       11      11
+               netbios-ns:       15       5
+              netbios-ssn:     1233     785
+                  netware:        2       0
+                     nntp:        2       2
+                      ntp:       36       7
+                  openvpn:       16      16
+                     pop3:      774   10950
+               postgresql:        8       0
+                  printer:        6       0
+                   radius:        3       2
+                      rdp:       10      20
+                     rtmp:        1       4
+                      rtp:        1       1
+                     rtsp:       17       2
+                      sip:      338      44
+                     smtp:     9851     720
+                     snmp:       49      10
+                     ssdp:       13       0
+                      ssh:       10       4
+                      ssl:      204     221
+                   sunrpc:      130       9
+                   syslog:        4       0
+                 teamview:        1       2
+                   telnet:       61      15
+                     tftp:       11       6
+                      vnc:        1       1
+               vnc-server:       12      10
+                     wins:        3       0
+                    total:    61918   78720
+--------------------------------------------------
+fast pattern groups
+                      src: 510
+                      dst: 1630
+                      any: 8
+                to_server: 131
+                to_client: 98
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 1303
+                 patterns: 156722
+            pattern chars: 3828484
+               num states: 2930118
+         num match states: 417964
+             memory scale: MB
+             total memory: 94.7472
+           pattern memory: 9.62835
+        match list memory: 50.1908
+        transition memory: 34.7689
+        fast pattern only: 105805
+appid: MaxRss diff: 128
+appid: patterns loaded: 300
+--------------------------------------------------
+dump:pcap DAQ configured to inline.
+Commencing packet processing
+++ [0] ./T0890-EscalPrivileges-NetLogon-FIXED_[2].pcapng
+-- [0] ./T0890-EscalPrivileges-NetLogon-FIXED_[2].pcapng
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                    pcaps: 1
+                 received: 4867
+                 analyzed: 4867
+                    allow: 4867
+                 rx_bytes: 503126
+--------------------------------------------------
+codec
+                    total: 4867        	(100.000%)
+                 discards: 1959        	( 40.251%)
+                      arp: 5           	(  0.103%)
+                      eth: 4867        	(100.000%)
+                    icmp6: 10          	(  0.205%)
+                     igmp: 10          	(  0.205%)
+                     ipv4: 4851        	( 99.671%)
+                     ipv6: 11          	(  0.226%)
+            ipv6_hop_opts: 8           	(  0.164%)
+                      tcp: 2876        	( 59.092%)
+                      udp: 7           	(  0.144%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+ac_bnfa
+                 searches: 5505
+                  matches: 109186
+                    bytes: 687800
+--------------------------------------------------
+ac_full
+                 searches: 376
+                  matches: 7508
+                    bytes: 27098
+--------------------------------------------------
+appid
+                  packets: 2903
+        processed_packets: 2903
+           total_sessions: 381
+       service_cache_adds: 6
+             bytes_in_use: 912
+             items_in_use: 6
+--------------------------------------------------
+arp_spoof
+                  packets: 5
+--------------------------------------------------
+back_orifice
+                  packets: 7
+--------------------------------------------------
+binder
+              raw_packets: 5
+                new_flows: 381
+          service_changes: 364
+                 inspects: 386
+--------------------------------------------------
+dce_tcp
+                     pdus: 911
+                    binds: 364
+                 requests: 547
+             tcp_sessions: 364
+              tcp_packets: 911
+  max_concurrent_sessions: 364
+--------------------------------------------------
+detection
+                 analyzed: 4867
+               hard_evals: 5452
+             raw_searches: 33
+          cooked_searches: 4378
+             pkt_searches: 4411
+             pdu_searches: 1094
+                   alerts: 527
+             total_alerts: 527
+                   logged: 527
+                buf_dumps: 870
+--------------------------------------------------
+ips_actions
+                    alert: 527
+--------------------------------------------------
+ipv4
+             bad_checksum: 1959
+--------------------------------------------------
+normalizer
+          test_tcp_ts_nop: 364
+--------------------------------------------------
+pcre
+               pcre_rules: 12920
+              pcre_native: 12920
+--------------------------------------------------
+port_scan
+                  packets: 2903
+                 trackers: 23
+--------------------------------------------------
+search_engine
+               max_queued: 101
+            total_flushed: 61589
+            total_inserts: 109186
+             total_unique: 61589
+     non_qualified_events: 66514
+         qualified_events: 527
+--------------------------------------------------
+stream
+                    flows: 381
+--------------------------------------------------
+stream_icmp
+                 sessions: 5
+                      max: 5
+                  created: 5
+                 released: 5
+--------------------------------------------------
+stream_ip
+                 sessions: 6
+                      max: 6
+                  created: 6
+                 released: 6
+              total_bytes: 80
+--------------------------------------------------
+stream_tcp
+                 sessions: 364
+                      max: 364
+                  created: 364
+                 released: 364
+             instantiated: 364
+                   setups: 364
+                 restarts: 364
+             syn_trackers: 364
+              segs_queued: 911
+            segs_released: 911
+                segs_used: 911
+          rebuilt_packets: 911
+            rebuilt_bytes: 111352
+                     syns: 364
+                     fins: 364
+                 max_segs: 1
+                max_bytes: 696
+ flush_on_asymmetric_flow: 911
+         asymmetric_flows: 364
+--------------------------------------------------
+stream_udp
+                 sessions: 6
+                      max: 6
+                  created: 6
+                 released: 6
+              total_bytes: 506
+--------------------------------------------------
+wizard
+                tcp_scans: 364
+                 tcp_hits: 364
+                udp_scans: 6
+               udp_misses: 6
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 2          0          0          0          0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+timing
+                  runtime: 00:00:00
+                  seconds: 0.229131
+                 pkts/sec: 21241
+                Mbits/sec: 18
+--------------------------------------------------
+rule profile (all, sorted by total_time)
+#       gid   sid rev    checks matches alerts time (us) avg/check avg/match avg/non-match timeouts suspends rule_time (%)
+=       ===   === ===    ====== ======= ====== ========= ========= ========= ============= ======== ======== =============
+1         1 33826   5       547       0      0     14140        25         0            25        0        0       6.17114
+2         1 37650   4       547       0      0     14026        25         0            25        0        0       6.12139
+3         1 12922  14       547       0      0     14012        25         0            25        0        0       6.11528
+4         1 22011   6       547       0      0     14007        25         0            25        0        0       6.11310
+5         1 11843  14       547       0      0     14007        25         0            25        0        0       6.11310
+6         1 20061   8       547       0      0     14005        25         0            25        0        0       6.11222
+7         1 18285   7       547       0      0     14005        25         0            25        0        0       6.11222
+8         1 10900  18       547       0      0     14005        25         0            25        0        0       6.11222
+9         1  5095  12       547       0      0     14004        25         0            25        0        0       6.11179
+10        1 12335  16       547       0      0     14001        25         0            25        0        0       6.11048
+11        1 12916  13       547       0      0     13999        25         0            25        0        0       6.10961
+12        1 17634   8       547       0      0     13996        25         0            25        0        0       6.10830
+13        1 48577   2       547       0      0     13995        25         0            25        0        0       6.10786
+14        1 12984  16       547       0      0     13995        25         0            25        0        0       6.10786
+15        1  6431  17       547       0      0     13992        25         0            25        0        0       6.10655
+16        1 44696   2       547       0      0     13991        25         0            25        0        0       6.10611
+17        1  2508  24       547       0      0     13991        25         0            25        0        0       6.10611
+18        1 17438  10       547       0      0     13990        25         0            25        0        0       6.10568
+19        1  3238  15       547       0      0     13990        25         0            25        0        0       6.10568
+20        1 12100  14       547       0      0     13989        25         0            25        0        0       6.10524
+21        1 12808   8       547       0      0     13989        25         0            25        0        0       6.10524
+22        1  3697  14       547       0      0     13989        25         0            25        0        0       6.10524
+23        1 22010   6       547       0      0     13988        25         0            25        0        0       6.10480
+24        1  2936  18       547       0      0     13988        25         0            25        0        0       6.10480
+25        1 13210  19       547       0      0     13988        25         0            25        0        0       6.10480
+26        1 17577  11       547       0      0     13987        25         0            25        0        0       6.10437
+27        1 17636   7       547       0      0     13987        25         0            25        0        0       6.10437
+28        1  9441  12       547       0      0     13987        25         0            25        0        0       6.10437
+29        1 22006   7       547       0      0     13986        25         0            25        0        0       6.10393
+30        1 11073  12       547       0      0     13986        25         0            25        0        0       6.10393
+31        1 13367   9       547       0      0     13986        25         0            25        0        0       6.10393
+32        1 12928  14       547       0      0     13986        25         0            25        0        0       6.10393
+33        1 18315  10       547       0      0     13986        25         0            25        0        0       6.10393
+34        1  4413  14       547       0      0     13985        25         0            25        0        0       6.10350
+35        1  6443  14       547       0      0     13985        25         0            25        0        0       6.10350
+36        1  8925  14       547       0      0     13985        25         0            25        0        0       6.10350
+37        1  4608  14       547       0      0     13985        25         0            25        0        0       6.10350
+38        1  9772   8       547       0      0     13985        25         0            25        0        0       6.10350
+39        1  6714  12       547       0      0     13985        25         0            25        0        0       6.10350
+40        1 14782  21       547       0      0     13985        25         0            25        0        0       6.10350
+41        1  3218  23       547       0      0     13985        25         0            25        0        0       6.10350
+42        1 15860  13       547       0      0     13984        25         0            25        0        0       6.10306
+43        1  7209  21       547       0      0     13984        25         0            25        0        0       6.10306
+44        1 15911   8       547       0      0     13984        25         0            25        0        0       6.10306
+45        1  9769  14       547       0      0     13984        25         0            25        0        0       6.10306
+46        1  3114  20       547       0      0     13984        25         0            25        0        0       6.10306
+47        1 22004   6       547       0      0     13984        25         0            25        0        0       6.10306
+48        1 14725  18       547       0      0     13984        25         0            25        0        0       6.10306
+49        1 14737  16       547       0      0     13984        25         0            25        0        0       6.10306
+50        1  6419  16       547       0      0     13983        25         0            25        0        0       6.10262
+51        1  6455  12       547       0      0     13983        25         0            25        0        0       6.10262
+52        1  9228  14       547       0      0     13983        25         0            25        0        0       6.10262
+53        1 12940  17       547       0      0     13983        25         0            25        0        0       6.10262
+54        1 21806   8       547       0      0     13983        25         0            25        0        0       6.10262
+55        1  2942  14       547       0      0     13983        25         0            25        0        0       6.10262
+56        1 12317  20       547       0      0     13983        25         0            25        0        0       6.10262
+57        1 17520  10       547       0      0     13983        25         0            25        0        0       6.10262
+58        1  4754  12       547       0      0     13983        25         0            25        0        0       6.10262
+59        1  6906  12       547       0      0     13983        25         0            25        0        0       6.10262
+60        1 23240   6       547       0      0     13983        25         0            25        0        0       6.10262
+61        1 11442  15       547       0      0     13983        25         0            25        0        0       6.10262
+62        1  5485  16       547       0      0     13983        25         0            25        0        0       6.10262
+63        1  4245  14       547       0      0     13983        25         0            25        0        0       6.10262
+64        1 10024  13       547       0      0     13982        25         0            25        0        0       6.10219
+65        1  9027  19       547       0      0     13982        25         0            25        0        0       6.10219
+66        1 15015  17       547       0      0     13982        25         0            25        0        0       6.10219
+67        1 17702  12       547       0      0     13982        25         0            25        0        0       6.10219
+68        1  9806  13       547       0      0     13982        25         0            25        0        0       6.10219
+69        1  4334  17       547       0      0     13982        25         0            25        0        0       6.10219
+70        1 22008   6       547       0      0     13982        25         0            25        0        0       6.10219
+71        1 14900  16       547       0      0     13982        25         0            25        0        0       6.10219
+72        1  4358  16       547       0      0     13982        25         0            25        0        0       6.10219
+73        1 12977  20       547       0      0     13982        25         0            25        0        0       6.10219
+74        1  4918  17       547       0      0     13981        25         0            25        0        0       6.10175
+75        1 10117  12       547       0      0     13981        25         0            25        0        0       6.10175
+76        1  8157  13       547       0      0     13981        25         0            25        0        0       6.10175
+77        1 10050  13       547       0      0     13981        25         0            25        0        0       6.10175
+78        1 10603  17       547       0      0     13981        25         0            25        0        0       6.10175
+79        1 22009   9       547       0      0     13981        25         0            25        0        0       6.10175
+80        1  4072  14       547       0      0     13981        25         0            25        0        0       6.10175
+81        1 15702   8       547       0      0     13981        25         0            25        0        0       6.10175
+82        1 10036  13       547       0      0     13981        25         0            25        0        0       6.10175
+83        1 43370   3       547       0      0     13981        25         0            25        0        0       6.10175
+84        1 17437  12       547       0      0     13981        25         0            25        0        0       6.10175
+85        1 13162  14       547       0      0     13981        25         0            25        0        0       6.10175
+86        1 17640   9       547       0      0     13981        25         0            25        0        0       6.10175
+87        1  6584  19       547       0      0     13980        25         0            25        0        0       6.10131
+88        1  8253  12       547       0      0     13980        25         0            25        0        0       6.10131
+89        1 16238  11       547       0      0     13980        25         0            25        0        0       6.10131
+90        1  3967  16       547       0      0     13980        25         0            25        0        0       6.10131
+91        1  9132  14       547       0      0     13980        25         0            25        0        0       6.10131
+92        1  4826  15       547       0      0     13980        25         0            25        0        0       6.10131
+93        1 17637   8       547       0      0     13980        25         0            25        0        0       6.10131
+94        1 22007   6       547       0      0     13980        25         0            25        0        0       6.10131
+95        1 22012   6       547       0      0     13980        25         0            25        0        0       6.10131
+96        1 12910  14       547       0      0     13980        25         0            25        0        0       6.10131
+97        1  3409  18       547       0      0     13979        25         0            25        0        0       6.10088
+98        1 22005   6       547       0      0     13979        25         0            25        0        0       6.10088
+99        1 10030  16       547       0      0     13979        25         0            25        0        0       6.10088
+100       1 12934  14       547       0      0     13979        25         0            25        0        0       6.10088
+101       1  6810  13       547       0      0     13979        25         0            25        0        0       6.10088
+102       1 41701   3      5468       0      0     12964         2         0             2        0        0       5.65790
+103       1 53374   2      5468       0      0     12418         2         0             2        0        0       5.41961
+104       1 55703   4      2549     172    172     11452         4        61             0        0        0       4.99801
+105       1 18487   9     20052       0      0      7937         0         0             0        0        0       3.46396
+106       1 36814   5     20052       0      0      7588         0         0             0        0        0       3.31164
+107       1 53375   2      5104       0      0      7151         1         0             1        0        0       3.12092
+108       1   529  16      4921       0      0      4881         0         0             0        0        0       2.13022
+109       1 12489  13      4921       0      0      4871         0         0             0        0        0       2.12586
+110       1 10285  10      4921       0      0      4859         0         0             0        0        0       2.12062
+111       1 38458   2      4921       0      0      4852         0         0             0        0        0       2.11757
+112       1 51065   1      3787       0      0      4737         1         0             1        0        0       2.06738
+113       1   622  12      3787       0      0      4327         1         0             1        0        0       1.88844
+114       1 24378   4      3787       0      0      4202         1         0             1        0        0       1.83389
+115       1   630  11      3787       0      0      4201         1         0             1        0        0       1.83345
+116       1 51066   1      3787       0      0      4195         1         0             1        0        0       1.83083
+117       1 39875   3      2188       0      0      4172         1         0             1        0        0       1.82079
+118       1 18997   7     60402       0      0      2668         0         0             0        0        0       1.16440
+119       1 37419   2     22600       0      0      2148         0         0             0        0        0       0.93745
+120       1 55802   1       182     182    182      1950        10        10             0        0        0       0.85104
+121       1  2190   6       728       0      0      1639         2         0             2        0        0       0.71531
+122       1 16294  15      3787       0      0      1324         0         0             0        0        0       0.57784
+123       1 15512  11       547       0      0      1281         2         0             2        0        0       0.55907
+124       1 15710   8       547       0      0      1254         2         0             2        0        0       0.54729
+125       1 18267   8       547       0      0      1250         2         0             2        0        0       0.54554
+126       1 18472  10       547       0      0      1249         2         0             2        0        0       0.54510
+127       1 47030   1     13854       0      0      1208         0         0             0        0        0       0.52721
+128       1 55704   3       183     167    167      1095         5         6             0        0        0       0.47789
+129       1 44308   1     27720       0      0      1079         0         0             0        0        0       0.47091
+130       1 44309   1     27720       0      0      1079         0         0             0        0        0       0.47091
+131       1 31814   4      3787       0      0       868         0         0             0        0        0       0.37882
+132       1 40063   5      3787       0      0       770         0         0             0        0        0       0.33605
+133       1  1257  15      1638       0      0       653         0         0             0        0        0       0.28499
+134       1 16271  13      7296       0      0       619         0         0             0        0        0       0.27015
+135       1 44716   2      1096       0      0       486         0         0             0        0        0       0.21211
+136       1 44720   2      1096       0      0       486         0         0             0        0        0       0.21211
+137       1 17635  11       547       0      0       428         0         0             0        0        0       0.18679
+138       1 36877   3       547       0      0       428         0         0             0        0        0       0.18679
+139       1 56290   6       728       0      0       427         0         0             0        0        0       0.18636
+140       1 51036   1      3814       0      0       381         0         0             0        0        0       0.16628
+141       1 16016  13       365       0      0       376         1         0             1        0        0       0.16410
+142       1 17435  12       365       0      0       373         1         0             1        0        0       0.16279
+143       1 17436  10       365       0      0       369         1         0             1        0        0       0.16104
+144       1 50716   1       364       0      0       366         1         0             1        0        0       0.15973
+145       1   272  16      3814       0      0       357         0         0             0        0        0       0.15581
+146       1  2463  10      7608       0      0       345         0         0             0        0        0       0.15057
+147       1  2462  10      7608       0      0       345         0         0             0        0        0       0.15057
+148       1 57193   3      3814       0      0       326         0         0             0        0        0       0.14228
+149       1 51035   1      3814       0      0       323         0         0             0        0        0       0.14097
+150       1 63149   1       730       0      0       321         0         0             0        0        0       0.14009
+151       1 51034   1      3814       0      0       317         0         0             0        0        0       0.13835
+152       1 16688   8       364       0      0       309         0         0             0        0        0       0.13486
+153       1 63396   1       728       0      0       308         0         0             0        0        0       0.13442
+154       1 23971   6       728       0      0       307         0         0             0        0        0       0.13398
+155       1  7021   9      7594       0      0       303         0         0             0        0        0       0.13224
+156       1 17302   8      7594       0      0       303         0         0             0        0        0       0.13224
+157       1  2464  10      3814       0      0       296         0         0             0        0        0       0.12918
+158       1 44718   2       366       0      0       296         0         0             0        0        0       0.12918
+159       1 44719   2       366       0      0       296         0         0             0        0        0       0.12918
+160       1  8446   9      3814       0      0       293         0         0             0        0        0       0.12787
+161       1 17138   7       364       0      0       291         0         0             0        0        0       0.12700
+162       1 54383   3      3814       0      0       284         0         0             0        0        0       0.12395
+163       1 57966   2       730       0      0       283         0         0             0        0        0       0.12351
+164       1 18215   9       182       0      0       267         1         0             1        0        0       0.11653
+165       1 13509   8      2552       0      0       257         0         0             0        0        0       0.11216
+166       1 37654   2      2935       0      0       242         0         0             0        0        0       0.10562
+167       1 16724   7      2935       0      0       242         0         0             0        0        0       0.10562
+168       1  4638   6      2935       0      0       234         0         0             0        0        0       0.10212
+169       1 41524   4      2186       0      0       224         0         0             0        0        0       0.09776
+170       1 43928   4      2186       0      0       208         0         0             0        0        0       0.09078
+171       1  3590  24       182       0      0       195         1         0             1        0        0       0.08510
+172       1 17252  16       182       0      0       181         0         0             0        0        0       0.07899
+173       1 51037   1      1830       6      6       141         0         1             0        0        0       0.06154
+174       1 25314   8      1830       0      0       141         0         0             0        0        0       0.06154
+175       1 13287  13      1830       0      0       140         0         0             0        0        0       0.06110
+176       1 62626   1      1481       0      0       125         0         0             0        0        0       0.05455
+177       1   441  10        10       0      0       111        11         0            11        0        0       0.04844
+178       1   458  12        10       0      0        92         9         0             9        0        0       0.04015
+179       1   401   9        10       0      0        92         9         0             9        0        0       0.04015
+180       1   449   9        10       0      0        92         9         0             9        0        0       0.04015
+181       1   419   8        10       0      0        92         9         0             9        0        0       0.04015
+182       1   392   8        10       0      0        92         9         0             9        0        0       0.04015
+183       1 18473   4        10       0      0        92         9         0             9        0        0       0.04015
+184       1 31767   2        10       0      0        92         9         0             9        0        0       0.04015
+185       1   408   8        10       0      0        92         9         0             9        0        0       0.04015
+186       1   384   8        10       0      0        92         9         0             9        0        0       0.04015
+187       1 29456   3        10       0      0        92         9         0             9        0        0       0.04015
+188       1   456   8        10       0      0        92         9         0             9        0        0       0.04015
+189       1   445   8        10       0      0        91         9         0             9        0        0       0.03972
+190       1   439   9        10       0      0        91         9         0             9        0        0       0.03972
+191       1   413   8        10       0      0        91         9         0             9        0        0       0.03972
+192       1   453   8        10       0      0        91         9         0             9        0        0       0.03972
+193       1   423   8        10       0      0        91         9         0             9        0        0       0.03972
+194       1 36651   2        10       0      0        91         9         0             9        0        0       0.03972
+195       1 18474   4        10       0      0        91         9         0             9        0        0       0.03972
+196       1   388   8        10       0      0        91         9         0             9        0        0       0.03972
+197       1   427   9        10       0      0        91         9         0             9        0        0       0.03972
+198       1   460  12        10       0      0        91         9         0             9        0        0       0.03972
+199       1   386   8        10       0      0        91         9         0             9        0        0       0.03972
+200       1 36650   2        10       0      0        91         9         0             9        0        0       0.03972
+201       1   429   9        10       0      0        91         9         0             9        0        0       0.03972
+202       1   451   8        10       0      0        91         9         0             9        0        0       0.03972
+203       1   417   8        10       0      0        91         9         0             9        0        0       0.03972
+204       1   411   8        10       0      0        91         9         0             9        0        0       0.03972
+205       1   443   9        10       0      0        91         9         0             9        0        0       0.03972
+206       1   462  12        10       0      0        91         9         0             9        0        0       0.03972
+207       1   421   8        10       0      0        91         9         0             9        0        0       0.03972
+208       1   415   8        10       0      0        91         9         0             9        0        0       0.03972
+209       1   390   8        10       0      0        91         9         0             9        0        0       0.03972
+210       1 20747   5       738       0      0        59         0         0             0        0        0       0.02575
+211       1 20746   5       738       0      0        59         0         0             0        0        0       0.02575
+212       1 44015   2       732       0      0        58         0         0             0        0        0       0.02531
+213       1 12300   5       368       0      0        35         0         0             0        0        0       0.01528
+214       1 55993   1        64       0      0        23         0         0             0        0        0       0.01004
+215       1 25664   5         6       0      0        23         3         0             3        0        0       0.01004
+216       1 32369   5       136       0      0        23         0         0             0        0        0       0.01004
+217       1 25589   6         2       0      0        17         8         0             8        0        0       0.00742
+218       1 23178   9        10       0      0        16         1         0             0        0        0       0.00698
+219       1 15302  13        12       0      0         9         0         0             0        0        0       0.00393
+220       1  2329  15         4       0      0         9         2         0             2        0        0       0.00393
+221       1 25618   4         2       0      0         7         3         0             3        0        0       0.00306
+222       1 24088   6       100       0      0         7         0         0             0        0        0       0.00306
+223       1 24301   5        10       2      2         6         0         2             0        0        0       0.00262
+224       1  1917  16         2       2      2         4         2         2             0        0        0       0.00175
+225       1 47416   2         2       0      0         4         2         0             2        0        0       0.00175
+226       1   474   9        60       0      0         3         0         0             0        0        0       0.00131
+227       1 46076   2         4       0      0         2         0         0             0        0        0       0.00087
+228       1 44481   2         8       0      0         2         0         0             0        0        0       0.00087
+229       1   400  10        10       0      0         2         0         0             0        0        0       0.00087
+230       1   409  10        10       0      0         1         0         0             0        0        0       0.00044
+231       1   416  10        10       0      0         1         0         0             0        0        0       0.00044
+232       1   457  10        10       0      0         1         0         0             0        0        0       0.00044
+233       1   440  10        10       0      0         1         0         0             0        0        0       0.00044
+234       1   391  11        10       0      0         1         0         0             0        0        0       0.00044
+235       1   418  10        10       0      0         1         0         0             0        0        0       0.00044
+236       1   393  11        10       0      0         1         0         0             0        0        0       0.00044
+237       1   424  10        10       0      0         1         0         0             0        0        0       0.00044
+238       1   365  11        10       0      0         1         0         0             0        0        0       0.00044
+239       1   452  10        10       0      0         1         0         0             0        0        0       0.00044
+240       1   422  10        10       0      0         1         0         0             0        0        0       0.00044
+241       1   420  10        10       0      0         1         0         0             0        0        0       0.00044
+242       1   454  10        10       0      0         1         0         0             0        0        0       0.00044
+243       1   387  10        10       0      0         1         0         0             0        0        0       0.00044
+244       1   414  10        10       0      0         1         0         0             0        0        0       0.00044
+245       1   446  10        10       0      0         1         0         0             0        0        0       0.00044
+246       1   448  10        10       0      0         1         0         0             0        0        0       0.00044
+247       1   412  10        10       0      0         1         0         0             0        0        0       0.00044
+248       1   389  10        10       0      0         1         0         0             0        0        0       0.00044
+249       1   228  11        10       0      0         1         0         0             0        0        0       0.00044
+250       1 24302   4        10       0      0         1         0         0             0        0        0       0.00044
+251       1   396  12        10       0      0         1         0         0             0        0        0       0.00044
+252       1   224  10        10       0      0         1         0         0             0        0        0       0.00044
+253       1   395   9        10       0      0         1         0         0             0        0        0       0.00044
+254       1 24303   7        10       0      0         1         0         0             0        0        0       0.00044
+255       1 35098   3        10       0      0         1         0         0             0        0        0       0.00044
+256       1   428  10        10       0      0         1         0         0             0        0        0       0.00044
+257       1   407  10        10       0      0         1         0         0             0        0        0       0.00044
+258       1   399   9        10       0      0         1         0         0             0        0        0       0.00044
+259       1   430   9        10       0      0         1         0         0             0        0        0       0.00044
+260       1   426  10        10       0      0         1         0         0             0        0        0       0.00044
+261       1   410   8        10       0      0         1         0         0             0        0        0       0.00044
+262       1   461  12        10       0      0         1         0         0             0        0        0       0.00044
+263       1   405   9        10       0      0         1         0         0             0        0        0       0.00044
+264       1   459  12        10       0      0         1         0         0             0        0        0       0.00044
+265       1   394   9        10       0      0         1         0         0             0        0        0       0.00044
+266       1 19678  10        10       0      0         1         0         0             0        0        0       0.00044
+267       1   436  10        10       0      0         1         0         0             0        0        0       0.00044
+268       1   402  16        10       0      0         1         0         0             0        0        0       0.00044
+269       1 20543   7        10       0      0         1         0         0             0        0        0       0.00044
+270       1   432   9        10       0      0         1         0         0             0        0        0       0.00044
+271       1   398   9        10       0      0         1         0         0             0        0        0       0.00044
+272       1 24294   3        10       0      0         1         0         0             0        0        0       0.00044
+273       1   438  13        10       0      0         1         0         0             0        0        0       0.00044
+274       1   433  11        10       0      0         1         0         0             0        0        0       0.00044
+275       1  8730   6        10       0      0         1         0         0             0        0        0       0.00044
+276       1   397   9        10       0      0         1         0         0             0        0        0       0.00044
+277       1   450  11        10       0      0         1         0         0             0        0        0       0.00044
+278       1   381  11        10       0      0         1         0         0             0        0        0       0.00044
+279       1   375  10        10       0      0         1         0         0             0        0        0       0.00044
+280       1  3626   9        10       0      0         1         0         0             0        0        0       0.00044
+281       1 15906   8         8       0      0         1         0         0             0        0        0       0.00044
+282       1   406   9        10       0      0         1         0         0             0        0        0       0.00044
+283       1   463  14        10       0      0         0         0         0             0        0        0       0.00000
+284       1   403   9        10       0      0         0         0         0             0        0        0       0.00000
+285       1 53264   2         2       0      0         0         0         0             0        0        0       0.00000
+286       1   385   8        10       0      0         0         0         0             0        0        0       0.00000
+287       1   425   9        10       0      0         0         0         0             0        0        0       0.00000
+288       1   437  10        10       0      0         0         0         0             0        0        0       0.00000
+289       1   404  14        10       0      0         0         0         0             0        0        0       0.00000
+290       1   431   9        10       0      0         0         0         0             0        0        0       0.00000
+291       1   251  11        10       0      0         0         0         0             0        0        0       0.00000
+292       1 13288  15        10       0      0         0         0         0             0        0        0       0.00000
+293       1   363  11        10       0      0         0         0         0             0        0        0       0.00000
+294       1 19890   6         1       0      0         0         0         0             0        0        0       0.00000
+295       1   364  11        10       0      0         0         0         0             0        0        0       0.00000
+296       1 28292   2        10       0      0         0         0         0             0        0        0       0.00000
+297       1 24297   3        10       0      0         0         0         0             0        0        0       0.00000
+298       1 24298   3        10       0      0         0         0         0             0        0        0       0.00000
+299       1 12357   6         2       0      0         0         0         0             0        0        0       0.00000
+300       1 15907   5         4       0      0         0         0         0             0        0        0       0.00000
+301       1   467   9         2       0      0         0         0         0             0        0        0       0.00000
+302       1 16405   7         4       0      0         0         0         0             0        0        0       0.00000
+303       1 43692   2         4       0      0         0         0         0             0        0        0       0.00000
+304       1 34802   2         4       0      0         0         0         0             0        0        0       0.00000
+o")~   Snort exiting

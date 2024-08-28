@@ -1,0 +1,525 @@
+--------------------------------------------------
+o")~   Snort++ 3.2.2.0
+--------------------------------------------------
+Loading /usr/local/snort/etc/snort/snort.lua:
+Loading snort_defaults.lua:
+Finished snort_defaults.lua:
+Loading file_magic.lua:
+Finished file_magic.lua:
+Loading talos.lua:
+Finished talos.lua:
+	snort
+	host_cache
+	host_tracker
+	hosts
+	packets
+	process
+	search_engine
+	so_proxy
+	stream_ip
+	stream_icmp
+	stream_tcp
+	stream_udp
+	stream_user
+	stream_file
+	arp_spoof
+	dns
+	imap
+	netflow
+	pop
+	ssh
+	ssl
+	telnet
+	iec104
+	mms
+	modbus
+	dce_smb
+	dce_udp
+	dce_http_server
+	smtp
+	ftp_server
+	ftp_client
+	ftp_data
+	http_inspect
+	http2_inspect
+	file_policy
+	js_norm
+	appid
+	wizard
+	alert_talos
+	profiler
+	references
+	classifications
+	alert_csv
+	alert_fast
+	ips
+	binder
+	file_id
+	port_scan
+	gtp_inspect
+	dce_http_proxy
+	dce_tcp
+	s7commplus
+	dnp3
+	cip
+	sip
+	rpc_decode
+	normalizer
+	back_orifice
+	stream
+	trace
+	decode
+	active
+	network
+	alerts
+	daq
+	output
+Finished /usr/local/snort/etc/snort/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading ips.rules:
+Loading /usr/local/snort/rules/3200/includes.rules:
+Loading snort3-app-detect.rules:
+Finished snort3-app-detect.rules:
+Loading snort3-browser-chrome.rules:
+Finished snort3-browser-chrome.rules:
+Loading snort3-browser-firefox.rules:
+Finished snort3-browser-firefox.rules:
+Loading snort3-browser-ie.rules:
+Finished snort3-browser-ie.rules:
+Loading snort3-browser-other.rules:
+Finished snort3-browser-other.rules:
+Loading snort3-browser-plugins.rules:
+Finished snort3-browser-plugins.rules:
+Loading snort3-browser-webkit.rules:
+Finished snort3-browser-webkit.rules:
+Loading snort3-content-replace.rules:
+Finished snort3-content-replace.rules:
+Loading snort3-exploit-kit.rules:
+Finished snort3-exploit-kit.rules:
+Loading snort3-file-executable.rules:
+Finished snort3-file-executable.rules:
+Loading snort3-file-flash.rules:
+Finished snort3-file-flash.rules:
+Loading snort3-file-identify.rules:
+Finished snort3-file-identify.rules:
+Loading snort3-file-image.rules:
+Finished snort3-file-image.rules:
+Loading snort3-file-java.rules:
+Finished snort3-file-java.rules:
+Loading snort3-file-multimedia.rules:
+Finished snort3-file-multimedia.rules:
+Loading snort3-file-office.rules:
+Finished snort3-file-office.rules:
+Loading snort3-file-other.rules:
+Finished snort3-file-other.rules:
+Loading snort3-file-pdf.rules:
+Finished snort3-file-pdf.rules:
+Loading snort3-indicator-compromise.rules:
+Finished snort3-indicator-compromise.rules:
+Loading snort3-indicator-obfuscation.rules:
+Finished snort3-indicator-obfuscation.rules:
+Loading snort3-indicator-scan.rules:
+Finished snort3-indicator-scan.rules:
+Loading snort3-indicator-shellcode.rules:
+Finished snort3-indicator-shellcode.rules:
+Loading snort3-malware-backdoor.rules:
+Finished snort3-malware-backdoor.rules:
+Loading snort3-malware-cnc.rules:
+Finished snort3-malware-cnc.rules:
+Loading snort3-malware-other.rules:
+Finished snort3-malware-other.rules:
+Loading snort3-malware-tools.rules:
+Finished snort3-malware-tools.rules:
+Loading snort3-netbios.rules:
+Finished snort3-netbios.rules:
+Loading snort3-os-linux.rules:
+Finished snort3-os-linux.rules:
+Loading snort3-os-mobile.rules:
+Finished snort3-os-mobile.rules:
+Loading snort3-os-other.rules:
+Finished snort3-os-other.rules:
+Loading snort3-os-solaris.rules:
+Finished snort3-os-solaris.rules:
+Loading snort3-os-windows.rules:
+Finished snort3-os-windows.rules:
+Loading snort3-policy-multimedia.rules:
+Finished snort3-policy-multimedia.rules:
+Loading snort3-policy-other.rules:
+Finished snort3-policy-other.rules:
+Loading snort3-policy-social.rules:
+Finished snort3-policy-social.rules:
+Loading snort3-policy-spam.rules:
+Finished snort3-policy-spam.rules:
+Loading snort3-protocol-dns.rules:
+Finished snort3-protocol-dns.rules:
+Loading snort3-protocol-finger.rules:
+Finished snort3-protocol-finger.rules:
+Loading snort3-protocol-ftp.rules:
+Finished snort3-protocol-ftp.rules:
+Loading snort3-protocol-icmp.rules:
+Finished snort3-protocol-icmp.rules:
+Loading snort3-protocol-imap.rules:
+Finished snort3-protocol-imap.rules:
+Loading snort3-protocol-nntp.rules:
+Finished snort3-protocol-nntp.rules:
+Loading snort3-protocol-other.rules:
+Finished snort3-protocol-other.rules:
+Loading snort3-protocol-pop.rules:
+Finished snort3-protocol-pop.rules:
+Loading snort3-protocol-rpc.rules:
+Finished snort3-protocol-rpc.rules:
+Loading snort3-protocol-scada.rules:
+Finished snort3-protocol-scada.rules:
+Loading snort3-protocol-services.rules:
+Finished snort3-protocol-services.rules:
+Loading snort3-protocol-snmp.rules:
+Finished snort3-protocol-snmp.rules:
+Loading snort3-protocol-telnet.rules:
+Finished snort3-protocol-telnet.rules:
+Loading snort3-protocol-tftp.rules:
+Finished snort3-protocol-tftp.rules:
+Loading snort3-protocol-voip.rules:
+Finished snort3-protocol-voip.rules:
+Loading snort3-pua-adware.rules:
+Finished snort3-pua-adware.rules:
+Loading snort3-pua-other.rules:
+Finished snort3-pua-other.rules:
+Loading snort3-pua-p2p.rules:
+Finished snort3-pua-p2p.rules:
+Loading snort3-pua-toolbars.rules:
+Finished snort3-pua-toolbars.rules:
+Loading snort3-server-apache.rules:
+Finished snort3-server-apache.rules:
+Loading snort3-server-iis.rules:
+Finished snort3-server-iis.rules:
+Loading snort3-server-mail.rules:
+Finished snort3-server-mail.rules:
+Loading snort3-server-mssql.rules:
+Finished snort3-server-mssql.rules:
+Loading snort3-server-mysql.rules:
+Finished snort3-server-mysql.rules:
+Loading snort3-server-oracle.rules:
+Finished snort3-server-oracle.rules:
+Loading snort3-server-other.rules:
+Finished snort3-server-other.rules:
+Loading snort3-server-samba.rules:
+Finished snort3-server-samba.rules:
+Loading snort3-server-webapp.rules:
+Finished snort3-server-webapp.rules:
+Loading snort3-sql.rules:
+Finished snort3-sql.rules:
+Loading snort3-x11.rules:
+Finished snort3-x11.rules:
+Finished /usr/local/snort/rules/3200/includes.rules:
+Loading /usr/local/snort/rules/snort3-community-rules/snort3-community.rules:
+Finished /usr/local/snort/rules/snort3-community-rules/snort3-community.rules:
+Finished ips.rules:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0   45889    4022   45889    /usr/local/snort/etc/snort/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 45889
+          duplicate rules: 4022
+               text rules: 45889
+            option chains: 45889
+            chain headers: 46809
+                 flowbits: 712
+     flowbits not checked: 69
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any    1818     391     471     298
+     src    1240     157       0       0
+     dst    5302    1005       0       0
+    both     109      54       0       0
+   total    8469    1607     471     298
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                      bgp:        5       1
+                   dcerpc:     1341     804
+                     dhcp:       37      10
+                     dnp3:        0       6
+                      dns:      276     117
+                     drda:        5       0
+                     file:      684     695
+                  file_id:      219     219
+                      ftp:      196      24
+                 ftp-data:      769   10696
+                   gopher:        0       1
+                     http:    14820   14101
+                    http2:    14820   14101
+                    http3:    14820   14101
+                    ident:        1       0
+                     igmp:        1       1
+                     imap:      815   10947
+                      irc:       40      14
+                     ircd:        9       3
+                 java_rmi:       55       3
+                 kerberos:       33       6
+                     ldap:       47       6
+                      ldp:        1       0
+                   modbus:       34      10
+                    mysql:       67       7
+              netbios-dgm:       11      11
+               netbios-ns:       15       5
+              netbios-ssn:     1233     785
+                  netware:        2       0
+                     nntp:        2       2
+                      ntp:       36       7
+                  openvpn:       16      16
+                     pop3:      774   10950
+               postgresql:        8       0
+                  printer:        6       0
+                   radius:        3       2
+                      rdp:       10      20
+                     rtmp:        1       4
+                      rtp:        1       1
+                     rtsp:       17       2
+                      sip:      338      44
+                     smtp:     9851     720
+                     snmp:       49      10
+                     ssdp:       13       0
+                      ssh:       10       4
+                      ssl:      204     221
+                   sunrpc:      130       9
+                   syslog:        4       0
+                 teamview:        1       2
+                   telnet:       61      15
+                     tftp:       11       6
+                      vnc:        1       1
+               vnc-server:       12      10
+                     wins:        3       0
+                    total:    61918   78720
+--------------------------------------------------
+fast pattern groups
+                      src: 510
+                      dst: 1630
+                      any: 8
+                to_server: 131
+                to_client: 98
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 1303
+                 patterns: 156722
+            pattern chars: 3828484
+               num states: 2930118
+         num match states: 417964
+             memory scale: MB
+             total memory: 94.7472
+           pattern memory: 9.62835
+        match list memory: 50.1908
+        transition memory: 34.7689
+        fast pattern only: 105805
+appid: MaxRss diff: 384
+appid: patterns loaded: 300
+--------------------------------------------------
+dump:pcap DAQ configured to inline.
+Commencing packet processing
+++ [0] ./T0848-RogueMaster-DNP3-FIXED_[1].pcapng
+-- [0] ./T0848-RogueMaster-DNP3-FIXED_[1].pcapng
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                    pcaps: 1
+                 received: 716
+                 analyzed: 716
+                 injected: 1
+                    allow: 715
+                    block: 1
+                 rx_bytes: 50445
+--------------------------------------------------
+codec
+                    total: 716         	(100.000%)
+                      eth: 716         	(100.000%)
+                     ipv4: 716         	(100.000%)
+                      tcp: 704         	( 98.324%)
+                      udp: 12          	(  1.676%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+ac_bnfa
+                 searches: 667
+                  matches: 2641
+                    bytes: 18251
+--------------------------------------------------
+ac_full
+                 searches: 8
+                    bytes: 1070
+--------------------------------------------------
+appid
+                  packets: 716
+        processed_packets: 716
+           total_sessions: 4
+       service_cache_adds: 2
+             bytes_in_use: 304
+             items_in_use: 2
+--------------------------------------------------
+back_orifice
+                  packets: 12
+--------------------------------------------------
+binder
+                new_flows: 4
+          service_changes: 1
+                 inspects: 4
+--------------------------------------------------
+detection
+                 analyzed: 716
+               hard_evals: 991
+             raw_searches: 24
+          cooked_searches: 643
+             pkt_searches: 667
+                   alerts: 12
+             total_alerts: 12
+                   logged: 12
+--------------------------------------------------
+dnp3
+            total_packets: 430
+                 tcp_pdus: 430
+   dnp3_link_layer_frames: 428
+    dnp3_application_pdus: 428
+  max_concurrent_sessions: 1
+--------------------------------------------------
+ips_actions
+                    alert: 12
+--------------------------------------------------
+normalizer
+             tcp_trim_win: 1
+--------------------------------------------------
+pcre
+               pcre_rules: 12920
+              pcre_native: 12920
+--------------------------------------------------
+port_scan
+                  packets: 716
+                 trackers: 4
+--------------------------------------------------
+search_engine
+               max_queued: 61
+            total_flushed: 2063
+            total_inserts: 2641
+             total_unique: 2063
+     non_qualified_events: 3042
+         qualified_events: 12
+--------------------------------------------------
+stream
+                    flows: 4
+--------------------------------------------------
+stream_tcp
+                 sessions: 1
+                      max: 1
+                  created: 1
+                 released: 1
+             instantiated: 1
+                   setups: 1
+                 restarts: 1
+          invalid_seq_num: 1
+             syn_trackers: 1
+              segs_queued: 430
+            segs_released: 430
+                segs_used: 430
+          rebuilt_packets: 430
+            rebuilt_bytes: 9599
+                     syns: 1
+                 syn_acks: 1
+                     fins: 2
+                 max_segs: 1
+                max_bytes: 113
+         full_retransmits: 5
+--------------------------------------------------
+stream_udp
+                 sessions: 3
+                      max: 3
+                  created: 3
+                 released: 3
+              total_bytes: 2100
+--------------------------------------------------
+wizard
+                tcp_scans: 1
+                 tcp_hits: 1
+                udp_scans: 3
+               udp_misses: 3
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 1          0          0          0          0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+timing
+                  runtime: 00:00:00
+                  seconds: 0.132544
+                 pkts/sec: 5402
+                Mbits/sec: 3
+--------------------------------------------------
+rule profile (all, sorted by total_time)
+#       gid   sid rev    checks matches alerts time (us) avg/check avg/match avg/non-match timeouts suspends rule_time (%)
+=       ===   === ===    ====== ======= ====== ========= ========= ========= ============= ======== ======== =============
+1         1 51066   1       704       0      0       682         0         0             0        0        0       0.51455
+2         1 51065   1       704       0      0       678         0         0             0        0        0       0.51153
+3         1   622  12       704       0      0       677         0         0             0        0        0       0.51077
+4         1   630  11       704       0      0       675         0         0             0        0        0       0.50926
+5         1 24378   4       704       0      0       673         0         0             0        0        0       0.50776
+6         1 15715   6       275       0      0       320         1         0             1        0        0       0.24143
+7         1 15717   6       275       0      0       316         1         0             1        0        0       0.23841
+8         1 15714   6       275       0      0       316         1         0             1        0        0       0.23841
+9         1 15713   6       275       0      0       315         1         0             1        0        0       0.23766
+10        1 15716   6       275       0      0       315         1         0             1        0        0       0.23766
+11        1 15718   6       275       0      0       315         1         0             1        0        0       0.23766
+12        1 15719   6       213       0      0       277         1         0             1        0        0       0.20899
+13        1 31814   4       704       0      0       192         0         0             0        0        0       0.14486
+14        1 25664   5        36       0      0       190         5         0             5        0        0       0.14335
+15        1 16294  15       704       0      0       182         0         0             0        0        0       0.13731
+16        1 25589   6        12       0      0       135        11         0            11        0        0       0.10185
+17        1 13509   8       460       0      0       114         0         0             0        0        0       0.08601
+18        1 40063   5       704       0      0       110         0         0             0        0        0       0.08299
+19        1 51034   1       716       0      0        69         0         0             0        0        0       0.05206
+20        1   272  16       716       0      0        61         0         0             0        0        0       0.04602
+21        1  7021   9       716       0      0        59         0         0             0        0        0       0.04451
+22        1 17302   8       716       0      0        59         0         0             0        0        0       0.04451
+23        1 51035   1       716       0      0        59         0         0             0        0        0       0.04451
+24        1 51036   1       716       0      0        57         0         0             0        0        0       0.04300
+25        1 54383   3       716       0      0        56         0         0             0        0        0       0.04225
+26        1  8446   9       716       0      0        55         0         0             0        0        0       0.04150
+27        1  2464  10       716       0      0        55         0         0             0        0        0       0.04150
+28        1 57193   3       716       0      0        55         0         0             0        0        0       0.04150
+29        1  2462  10       716       0      0        52         0         0             0        0        0       0.03923
+30        1  2463  10       716       0      0        52         0         0             0        0        0       0.03923
+31        1 16724   7       477       0      0        41         0         0             0        0        0       0.03093
+32        1 37654   2       477       0      0        41         0         0             0        0        0       0.03093
+33        1  4638   6       477       0      0        38         0         0             0        0        0       0.02867
+34        1 37419   2        79       0      0        31         0         0             0        0        0       0.02339
+35        1 18997   7       642       0      0        27         0         0             0        0        0       0.02037
+36        1 25618   4        12       0      0        22         1         0             1        0        0       0.01660
+37        1  1917  16        12      12     12        20         1         1             0        0        0       0.01509
+38        1 25314   8       198       0      0        18         0         0             0        0        0       0.01358
+39        1 13287  13       198       0      0        18         0         0             0        0        0       0.01358
+40        1 51037   1       198       0      0        18         0         0             0        0        0       0.01358
+41        1 62626   1       207       0      0        16         0         0             0        0        0       0.01207
+42        1 41524   4        14       0      0        12         0         0             0        0        0       0.00905
+43        1 18487   9        18       0      0         4         0         0             0        0        0       0.00302
+44        1 36814   5        18       0      0         4         0         0             0        0        0       0.00302
+45        1 34802   2        41       0      0         4         0         0             0        0        0       0.00302
+46        1 47030   1        18       0      0         2         0         0             0        0        0       0.00151
+47        1 40061   1         1       0      0         2         2         0             2        0        0       0.00151
+48        1 20747   5        26       0      0         2         0         0             0        0        0       0.00151
+49        1 20746   5        26       0      0         2         0         0             0        0        0       0.00151
+50        1 38355   3        12       0      0         2         0         0             0        0        0       0.00151
+51        1 44309   1        18       0      0         1         0         0             0        0        0       0.00075
+52        1 44308   1        18       0      0         1         0         0             0        0        0       0.00075
+53        1 15906   8        17       0      0         1         0         0             0        0        0       0.00075
+54        1 15907   5        15       0      0         1         0         0             0        0        0       0.00075
+55        1 12357   6        12       0      0         1         0         0             0        0        0       0.00075
+56        1 30326   4         6       0      0         0         0         0             0        0        0       0.00000
+57        1 16688   8         2       0      0         0         0         0             0        0        0       0.00000
+58        1 17138   7         2       0      0         0         0         0             0        0        0       0.00000
+59        1 15490  10         1       0      0         0         0         0             0        0        0       0.00000
+60        1 40062   1         1       0      0         0         0         0             0        0        0       0.00000
+o")~   Snort exiting

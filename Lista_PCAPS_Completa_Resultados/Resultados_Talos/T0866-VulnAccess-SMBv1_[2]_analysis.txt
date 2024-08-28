@@ -1,0 +1,715 @@
+--------------------------------------------------
+o")~   Snort++ 3.2.2.0
+--------------------------------------------------
+Loading /usr/local/snort/etc/snort/snort.lua:
+Loading snort_defaults.lua:
+Finished snort_defaults.lua:
+Loading file_magic.lua:
+Finished file_magic.lua:
+Loading talos.lua:
+Finished talos.lua:
+	snort
+	js_norm
+	alert_talos
+	alert_fast
+	alert_csv
+	ips
+	classifications
+	references
+	binder
+	wizard
+	appid
+	file_id
+	http2_inspect
+	http_inspect
+	ftp_data
+	gtp_inspect
+	dce_http_proxy
+	s7commplus
+	netflow
+	active
+	alerts
+	daq
+	decode
+	host_cache
+	host_tracker
+	hosts
+	network
+	packets
+	process
+	search_engine
+	so_proxy
+	dns
+	stream
+	stream_ip
+	stream_icmp
+	stream_tcp
+	stream_udp
+	stream_user
+	stream_file
+	arp_spoof
+	back_orifice
+	imap
+	normalizer
+	pop
+	rpc_decode
+	sip
+	ssh
+	ssl
+	telnet
+	cip
+	dnp3
+	iec104
+	mms
+	modbus
+	output
+	dce_smb
+	dce_tcp
+	dce_udp
+	dce_http_server
+	port_scan
+	smtp
+	ftp_server
+	ftp_client
+	profiler
+	file_policy
+	trace
+Finished /usr/local/snort/etc/snort/snort.lua:
+Loading file_id.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_id.rules_file:
+Loading ips.rules:
+Loading /usr/local/snort/rules/3200/includes.rules:
+Loading snort3-app-detect.rules:
+Finished snort3-app-detect.rules:
+Loading snort3-browser-chrome.rules:
+Finished snort3-browser-chrome.rules:
+Loading snort3-browser-firefox.rules:
+Finished snort3-browser-firefox.rules:
+Loading snort3-browser-ie.rules:
+Finished snort3-browser-ie.rules:
+Loading snort3-browser-other.rules:
+Finished snort3-browser-other.rules:
+Loading snort3-browser-plugins.rules:
+Finished snort3-browser-plugins.rules:
+Loading snort3-browser-webkit.rules:
+Finished snort3-browser-webkit.rules:
+Loading snort3-content-replace.rules:
+Finished snort3-content-replace.rules:
+Loading snort3-exploit-kit.rules:
+Finished snort3-exploit-kit.rules:
+Loading snort3-file-executable.rules:
+Finished snort3-file-executable.rules:
+Loading snort3-file-flash.rules:
+Finished snort3-file-flash.rules:
+Loading snort3-file-identify.rules:
+Finished snort3-file-identify.rules:
+Loading snort3-file-image.rules:
+Finished snort3-file-image.rules:
+Loading snort3-file-java.rules:
+Finished snort3-file-java.rules:
+Loading snort3-file-multimedia.rules:
+Finished snort3-file-multimedia.rules:
+Loading snort3-file-office.rules:
+Finished snort3-file-office.rules:
+Loading snort3-file-other.rules:
+Finished snort3-file-other.rules:
+Loading snort3-file-pdf.rules:
+Finished snort3-file-pdf.rules:
+Loading snort3-indicator-compromise.rules:
+Finished snort3-indicator-compromise.rules:
+Loading snort3-indicator-obfuscation.rules:
+Finished snort3-indicator-obfuscation.rules:
+Loading snort3-indicator-scan.rules:
+Finished snort3-indicator-scan.rules:
+Loading snort3-indicator-shellcode.rules:
+Finished snort3-indicator-shellcode.rules:
+Loading snort3-malware-backdoor.rules:
+Finished snort3-malware-backdoor.rules:
+Loading snort3-malware-cnc.rules:
+Finished snort3-malware-cnc.rules:
+Loading snort3-malware-other.rules:
+Finished snort3-malware-other.rules:
+Loading snort3-malware-tools.rules:
+Finished snort3-malware-tools.rules:
+Loading snort3-netbios.rules:
+Finished snort3-netbios.rules:
+Loading snort3-os-linux.rules:
+Finished snort3-os-linux.rules:
+Loading snort3-os-mobile.rules:
+Finished snort3-os-mobile.rules:
+Loading snort3-os-other.rules:
+Finished snort3-os-other.rules:
+Loading snort3-os-solaris.rules:
+Finished snort3-os-solaris.rules:
+Loading snort3-os-windows.rules:
+Finished snort3-os-windows.rules:
+Loading snort3-policy-multimedia.rules:
+Finished snort3-policy-multimedia.rules:
+Loading snort3-policy-other.rules:
+Finished snort3-policy-other.rules:
+Loading snort3-policy-social.rules:
+Finished snort3-policy-social.rules:
+Loading snort3-policy-spam.rules:
+Finished snort3-policy-spam.rules:
+Loading snort3-protocol-dns.rules:
+Finished snort3-protocol-dns.rules:
+Loading snort3-protocol-finger.rules:
+Finished snort3-protocol-finger.rules:
+Loading snort3-protocol-ftp.rules:
+Finished snort3-protocol-ftp.rules:
+Loading snort3-protocol-icmp.rules:
+Finished snort3-protocol-icmp.rules:
+Loading snort3-protocol-imap.rules:
+Finished snort3-protocol-imap.rules:
+Loading snort3-protocol-nntp.rules:
+Finished snort3-protocol-nntp.rules:
+Loading snort3-protocol-other.rules:
+Finished snort3-protocol-other.rules:
+Loading snort3-protocol-pop.rules:
+Finished snort3-protocol-pop.rules:
+Loading snort3-protocol-rpc.rules:
+Finished snort3-protocol-rpc.rules:
+Loading snort3-protocol-scada.rules:
+Finished snort3-protocol-scada.rules:
+Loading snort3-protocol-services.rules:
+Finished snort3-protocol-services.rules:
+Loading snort3-protocol-snmp.rules:
+Finished snort3-protocol-snmp.rules:
+Loading snort3-protocol-telnet.rules:
+Finished snort3-protocol-telnet.rules:
+Loading snort3-protocol-tftp.rules:
+Finished snort3-protocol-tftp.rules:
+Loading snort3-protocol-voip.rules:
+Finished snort3-protocol-voip.rules:
+Loading snort3-pua-adware.rules:
+Finished snort3-pua-adware.rules:
+Loading snort3-pua-other.rules:
+Finished snort3-pua-other.rules:
+Loading snort3-pua-p2p.rules:
+Finished snort3-pua-p2p.rules:
+Loading snort3-pua-toolbars.rules:
+Finished snort3-pua-toolbars.rules:
+Loading snort3-server-apache.rules:
+Finished snort3-server-apache.rules:
+Loading snort3-server-iis.rules:
+Finished snort3-server-iis.rules:
+Loading snort3-server-mail.rules:
+Finished snort3-server-mail.rules:
+Loading snort3-server-mssql.rules:
+Finished snort3-server-mssql.rules:
+Loading snort3-server-mysql.rules:
+Finished snort3-server-mysql.rules:
+Loading snort3-server-oracle.rules:
+Finished snort3-server-oracle.rules:
+Loading snort3-server-other.rules:
+Finished snort3-server-other.rules:
+Loading snort3-server-samba.rules:
+Finished snort3-server-samba.rules:
+Loading snort3-server-webapp.rules:
+Finished snort3-server-webapp.rules:
+Loading snort3-sql.rules:
+Finished snort3-sql.rules:
+Loading snort3-x11.rules:
+Finished snort3-x11.rules:
+Finished /usr/local/snort/rules/3200/includes.rules:
+Loading /usr/local/snort/rules/snort3-community-rules/snort3-community.rules:
+Finished /usr/local/snort/rules/snort3-community-rules/snort3-community.rules:
+Finished ips.rules:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               0   45889    4022   45889    /usr/local/snort/etc/snort/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 45889
+          duplicate rules: 4022
+               text rules: 45889
+            option chains: 45889
+            chain headers: 46809
+                 flowbits: 712
+     flowbits not checked: 69
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any    1818     391     471     298
+     src    1240     157       0       0
+     dst    5302    1005       0       0
+    both     109      54       0       0
+   total    8469    1607     471     298
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                      bgp:        5       1
+                   dcerpc:     1341     804
+                     dhcp:       37      10
+                     dnp3:        0       6
+                      dns:      276     117
+                     drda:        5       0
+                     file:      684     695
+                  file_id:      219     219
+                      ftp:      196      24
+                 ftp-data:      769   10696
+                   gopher:        0       1
+                     http:    14820   14101
+                    http2:    14820   14101
+                    http3:    14820   14101
+                    ident:        1       0
+                     igmp:        1       1
+                     imap:      815   10947
+                      irc:       40      14
+                     ircd:        9       3
+                 java_rmi:       55       3
+                 kerberos:       33       6
+                     ldap:       47       6
+                      ldp:        1       0
+                   modbus:       34      10
+                    mysql:       67       7
+              netbios-dgm:       11      11
+               netbios-ns:       15       5
+              netbios-ssn:     1233     785
+                  netware:        2       0
+                     nntp:        2       2
+                      ntp:       36       7
+                  openvpn:       16      16
+                     pop3:      774   10950
+               postgresql:        8       0
+                  printer:        6       0
+                   radius:        3       2
+                      rdp:       10      20
+                     rtmp:        1       4
+                      rtp:        1       1
+                     rtsp:       17       2
+                      sip:      338      44
+                     smtp:     9851     720
+                     snmp:       49      10
+                     ssdp:       13       0
+                      ssh:       10       4
+                      ssl:      204     221
+                   sunrpc:      130       9
+                   syslog:        4       0
+                 teamview:        1       2
+                   telnet:       61      15
+                     tftp:       11       6
+                      vnc:        1       1
+               vnc-server:       12      10
+                     wins:        3       0
+                    total:    61918   78720
+--------------------------------------------------
+fast pattern groups
+                      src: 510
+                      dst: 1630
+                      any: 8
+                to_server: 131
+                to_client: 98
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 1303
+                 patterns: 156722
+            pattern chars: 3828484
+               num states: 2930118
+         num match states: 417964
+             memory scale: MB
+             total memory: 94.7472
+           pattern memory: 9.62835
+        match list memory: 50.1908
+        transition memory: 34.7689
+        fast pattern only: 105805
+appid: MaxRss diff: 128
+appid: patterns loaded: 300
+--------------------------------------------------
+dump:pcap DAQ configured to inline.
+Commencing packet processing
+++ [0] ./T0866-VulnAccess-SMBv1_[2].pcapng
+-- [0] ./T0866-VulnAccess-SMBv1_[2].pcapng
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                    pcaps: 1
+                 received: 997
+                 analyzed: 997
+                    allow: 997
+                 rx_bytes: 1113340
+--------------------------------------------------
+codec
+                    total: 997         	(100.000%)
+                 discards: 553         	( 55.466%)
+                      arp: 10          	(  1.003%)
+                      eth: 997         	(100.000%)
+                    icmp6: 4           	(  0.401%)
+                     ipv4: 975         	( 97.793%)
+                     ipv6: 12          	(  1.204%)
+                      tcp: 944         	( 94.684%)
+                      udp: 39          	(  3.912%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+ac_bnfa
+                 searches: 425
+                  matches: 9688
+                    bytes: 53718
+--------------------------------------------------
+ac_full
+                 searches: 33
+                  matches: 369
+                    bytes: 3678
+--------------------------------------------------
+appid
+                  packets: 434
+        processed_packets: 434
+           total_sessions: 71
+       service_cache_adds: 8
+             bytes_in_use: 1216
+             items_in_use: 8
+--------------------------------------------------
+arp_spoof
+                  packets: 10
+--------------------------------------------------
+back_orifice
+                  packets: 36
+--------------------------------------------------
+binder
+              raw_packets: 10
+                new_flows: 69
+          service_changes: 9
+                 inspects: 79
+--------------------------------------------------
+dce_smb
+                 sessions: 9
+                  packets: 50
+            ignored_bytes: 5568
+  max_concurrent_sessions: 9
+      total_smb1_sessions: 9
+--------------------------------------------------
+detection
+                 analyzed: 997
+               hard_evals: 485
+             raw_searches: 125
+          cooked_searches: 300
+             pkt_searches: 425
+                   alerts: 16
+             total_alerts: 16
+                   logged: 16
+           cont_creations: 12
+               cont_flows: 3
+               cont_evals: 12
+          cont_mismatches: 12
+             cont_max_num: 4
+   cont_mismatch_distance: 144
+--------------------------------------------------
+ips_actions
+                    alert: 16
+--------------------------------------------------
+pcre
+               pcre_rules: 12920
+              pcre_native: 12920
+--------------------------------------------------
+port_scan
+                  packets: 987
+                 trackers: 24
+--------------------------------------------------
+search_engine
+               max_queued: 230
+            total_flushed: 4556
+            total_inserts: 9688
+             total_unique: 4556
+     non_qualified_events: 5025
+         qualified_events: 16
+--------------------------------------------------
+stream
+                    flows: 65
+             total_prunes: 1
+idle_prunes_proto_timeout: 1
+       tcp_timeout_prunes: 1
+--------------------------------------------------
+stream_tcp
+                 sessions: 54
+                      max: 54
+                  created: 54
+                 released: 54
+             instantiated: 54
+                   setups: 54
+                 restarts: 9
+             syn_trackers: 1
+         syn_ack_trackers: 53
+              segs_queued: 77
+            segs_released: 77
+                segs_used: 50
+          rebuilt_packets: 50
+            rebuilt_bytes: 5568
+                     syns: 1
+                 syn_acks: 53
+                   resets: 52
+                 max_segs: 27
+                max_bytes: 6493
+ flush_on_asymmetric_flow: 50
+         asymmetric_flows: 54
+--------------------------------------------------
+stream_udp
+                 sessions: 11
+                      max: 11
+                  created: 13
+                 released: 13
+                 timeouts: 2
+              total_bytes: 3724
+--------------------------------------------------
+tcp
+        bad_tcp4_checksum: 550
+--------------------------------------------------
+udp
+        bad_udp4_checksum: 2
+        bad_udp6_checksum: 1
+--------------------------------------------------
+wizard
+                tcp_scans: 12
+                 tcp_hits: 9
+                udp_scans: 11
+               udp_misses: 11
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 8          0          0          0          0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+timing
+                  runtime: 00:00:00
+                  seconds: 0.198979
+                 pkts/sec: 5011
+                Mbits/sec: 45
+--------------------------------------------------
+rule profile (all, sorted by total_time)
+#       gid   sid rev    checks matches alerts time (us) avg/check avg/match avg/non-match timeouts suspends rule_time (%)
+=       ===   === ===    ====== ======= ====== ========= ========= ========= ============= ======== ======== =============
+1         1 13901  16      4112       0      0       907         0         0             0        0        0       0.45583
+2         1 32631   2      4112       0      0       903         0         0             0        0        0       0.45382
+3         1  3055   5       100       0      0       507         5         0             5        0        0       0.25480
+4         1  3047   5       100       0      0       507         5         0             5        0        0       0.25480
+5         1  2402  10       100       0      0       506         5         0             5        0        0       0.25430
+6         1  3049   5       100       0      0       504         5         0             5        0        0       0.25329
+7         1  3057   5       100       0      0       504         5         0             5        0        0       0.25329
+8         1  2404  11       100       0      0       504         5         0             5        0        0       0.25329
+9         1   622  12       444       0      0       446         1         0             1        0        0       0.22414
+10        1 51066   1       444       0      0       443         0         0             0        0        0       0.22264
+11        1   630  11       444       0      0       443         0         0             0        0        0       0.22264
+12        1 51065   1       444       0      0       443         0         0             0        0        0       0.22264
+13        1 24378   4       444       0      0       442         0         0             0        0        0       0.22213
+14        1 37419   2      1112       0      0       364         0         0             0        0        0       0.18293
+15        1 46637   2        36       0      0       316         8         0             0        0        0       0.15881
+16        1 25664   5        42       0      0       181         4         0             4        0        0       0.09096
+17        1  5678   5        26       0      0       179         6         0             6        0        0       0.08996
+18        1  5679   4        26       0      0       175         6         0             6        0        0       0.08795
+19        1 25589   6        14       0      0       143        10         0            10        0        0       0.07187
+20        1 18997   7      2073       0      0       125         0         0             0        0        0       0.06282
+21        1 19972  13        48       0      0       115         2         0             2        0        0       0.05780
+22        1 51034   1       484       0      0       112         0         0             0        0        0       0.05629
+23        1 16294  15       444       0      0        99         0         0             0        0        0       0.04975
+24        1   272  16       484       0      0        93         0         0             0        0        0       0.04674
+25        1 14777   5         1       0      0        92        92         0            92        0        0       0.04624
+26        1 47030   1       918       0      0        87         0         0             0        0        0       0.04372
+27        1 36814   5      1284       0      0        83         0         0             0        0        0       0.04171
+28        1 18487   9      1284       0      0        83         0         0             0        0        0       0.04171
+29        1 31814   4       444       0      0        83         0         0             0        0        0       0.04171
+30        1 44309   1      1461       0      0        79         0         0             0        0        0       0.03970
+31        1 44308   1      1461       0      0        79         0         0             0        0        0       0.03970
+32        1 40063   5       444       0      0        76         0         0             0        0        0       0.03819
+33        1  3146  18       200       0      0        73         0         0             0        0        0       0.03669
+34        1 16417  12        36       0      0        69         1         0             1        0        0       0.03468
+35        1 19189  13        48       0      0        60         1         0             1        0        0       0.03015
+36        1 19221  15        48       0      0        60         1         0             1        0        0       0.03015
+37        1  3145  16        48       0      0        59         1         0             1        0        0       0.02965
+38        1 16271  13       580       0      0        57         0         0             0        0        0       0.02865
+39        1 25618   4        14       0      0        44         3         0             3        0        0       0.02211
+40        1 57193   3       484       0      0        43         0         0             0        0        0       0.02161
+41        1 51036   1       484       0      0        43         0         0             0        0        0       0.02161
+42        1 51035   1       484       0      0        43         0         0             0        0        0       0.02161
+43        1 54383   3       484       0      0        42         0         0             0        0        0       0.02111
+44        1  2464  10       484       0      0        39         0         0             0        0        0       0.01960
+45        1  1917  16        14      14     14        39         2         2             0        0        0       0.01960
+46        1  8446   9       484       0      0        38         0         0             0        0        0       0.01910
+47        1  7021   9       484       0      0        38         0         0             0        0        0       0.01910
+48        1 17302   8       484       0      0        38         0         0             0        0        0       0.01910
+49        1 40062   1        64       0      0        37         0         0             0        0        0       0.01859
+50        1  2462  10       484       0      0        36         0         0             0        0        0       0.01809
+51        1  2463  10       484       0      0        36         0         0             0        0        0       0.01809
+52        1  3144  17       100       0      0        35         0         0             0        0        0       0.01759
+53        1 13509   8        92       0      0        32         0         0             0        0        0       0.01608
+54        1  3056   5         8       0      0        32         4         0             4        0        0       0.01608
+55        1  3048   5         8       0      0        32         4         0             4        0        0       0.01608
+56        1 42330   2        40       0      0        31         0         0             0        0        0       0.01558
+57        1 17210   8         8       0      0        31         3         0             3        0        0       0.01558
+58        1 43459   3        40       0      0        31         0         0             0        0        0       0.01558
+59        1 42329   2        40       0      0        31         0         0             0        0        0       0.01558
+60        1 31767   2         4       0      0        26         6         0             6        0        0       0.01307
+61        1   408   8         4       0      0        26         6         0             6        0        0       0.01307
+62        1   427   9         4       0      0        26         6         0             6        0        0       0.01307
+63        1   458  12         4       0      0        26         6         0             6        0        0       0.01307
+64        1   386   8         4       0      0        26         6         0             6        0        0       0.01307
+65        1 18473   4         4       0      0        25         6         0             6        0        0       0.01256
+66        1   401   9         4       0      0        25         6         0             6        0        0       0.01256
+67        1   441  10         4       0      0        25         6         0             6        0        0       0.01256
+68        1   449   9         4       0      0        25         6         0             6        0        0       0.01256
+69        1   413   8         4       0      0        25         6         0             6        0        0       0.01256
+70        1   445   8         4       0      0        25         6         0             6        0        0       0.01256
+71        1   419   8         4       0      0        25         6         0             6        0        0       0.01256
+72        1   451   8         4       0      0        25         6         0             6        0        0       0.01256
+73        1 36651   2         4       0      0        25         6         0             6        0        0       0.01256
+74        1   415   8         4       0      0        25         6         0             6        0        0       0.01256
+75        1   456   8         4       0      0        25         6         0             6        0        0       0.01256
+76        1 29456   3         4       0      0        25         6         0             6        0        0       0.01256
+77        1   384   8         4       0      0        25         6         0             6        0        0       0.01256
+78        1   429   9         4       0      0        25         6         0             6        0        0       0.01256
+79        1   388   8         4       0      0        25         6         0             6        0        0       0.01256
+80        1   411   8         4       0      0        25         6         0             6        0        0       0.01256
+81        1   390   8         4       0      0        25         6         0             6        0        0       0.01256
+82        1   460  12         4       0      0        25         6         0             6        0        0       0.01256
+83        1   421   8         4       0      0        25         6         0             6        0        0       0.01256
+84        1   453   8         4       0      0        25         6         0             6        0        0       0.01256
+85        1   439   9         4       0      0        25         6         0             6        0        0       0.01256
+86        1 36650   2         4       0      0        25         6         0             6        0        0       0.01256
+87        1   392   8         4       0      0        25         6         0             6        0        0       0.01256
+88        1 18474   4         4       0      0        25         6         0             6        0        0       0.01256
+89        1   423   8         4       0      0        25         6         0             6        0        0       0.01256
+90        1   443   9         4       0      0        25         6         0             6        0        0       0.01256
+91        1   417   8         4       0      0        25         6         0             6        0        0       0.01256
+92        1   462  12         4       0      0        25         6         0             6        0        0       0.01256
+93        1  3143  17        24       0      0        25         1         0             1        0        0       0.01256
+94        1 34937   2         4       0      0        23         5         0             5        0        0       0.01156
+95        1  3054   5         4       0      0        23         5         0             5        0        0       0.01156
+96        1  3046   5         4       0      0        23         5         0             5        0        0       0.01156
+97        1  7041  14       100       0      0        20         0         0             0        0        0       0.01005
+98        1 16724   7       184       0      0        19         0         0             0        0        0       0.00955
+99        1 37654   2       184       0      0        19         0         0             0        0        0       0.00955
+100       1 15302  13        46       0      0        19         0         0             0        0        0       0.00955
+101       1 18195   7        18       0      0        18         1         0             1        0        0       0.00905
+102       1 20746   5       175       0      0        17         0         0             0        0        0       0.00854
+103       1 20747   5       175       0      0        17         0         0             0        0        0       0.00854
+104       1  2329  15        16       0      0        15         0         0             0        0        0       0.00754
+105       1  4638   6       184       0      0        15         0         0             0        0        0       0.00754
+106       1 24294   3         4       0      0        13         3         0             1        0        0       0.00653
+107       1 45977   2         8       0      0        12         1         0             1        0        0       0.00603
+108       1 45978   2         8       0      0        11         1         0             1        0        0       0.00553
+109       1 15906   8       109       0      0        11         0         0             0        0        0       0.00553
+110       1 41524   4        18       0      0         9         0         0             0        0        0       0.00452
+111       1 62626   1        86       0      0         9         0         0             0        0        0       0.00452
+112       1 38462   2        12       0      0         9         0         0             0        0        0       0.00452
+113       1  7716   6        14       0      0         6         0         0             0        0        0       0.00302
+114       1 40061   1        64       0      0         6         0         0             0        0        0       0.00302
+115       1 15490  10        65       0      0         6         0         0             0        0        0       0.00302
+116       1  7636   6        14       0      0         5         0         0             0        0        0       0.00251
+117       1  2924   9        52       0      0         5         0         0             0        0        0       0.00251
+118       1 24303   7         4       2      2         4         1         2             0        0        0       0.00201
+119       1 16418  11        36       0      0         4         0         0             0        0        0       0.00201
+120       1 34802   2        25       0      0         4         0         0             0        0        0       0.00201
+121       1 51037   1        36       0      0         3         0         0             0        0        0       0.00151
+122       1 25314   8        36       0      0         3         0         0             0        0        0       0.00151
+123       1 13287  13        36       0      0         3         0         0             0        0        0       0.00151
+124       1 15907   5        32       0      0         3         0         0             0        0        0       0.00151
+125       1 44718   2        36       0      0         3         0         0             0        0        0       0.00151
+126       1 44719   2        36       0      0         3         0         0             0        0        0       0.00151
+127       1 44716   2        30       0      0         3         0         0             0        0        0       0.00151
+128       1 44720   2        30       0      0         3         0         0             0        0        0       0.00151
+129       1  2923  14        26       0      0         2         0         0             0        0        0       0.00101
+130       1 24088   6        26       0      0         2         0         0             0        0        0       0.00101
+131       1 32369   5        34       0      0         2         0         0             0        0        0       0.00101
+132       1 17483   9         1       0      0         2         2         0             2        0        0       0.00101
+133       1 53975   2         1       0      0         2         2         0             2        0        0       0.00101
+134       1 35098   3         4       0      0         2         0         0             0        0        0       0.00101
+135       1 12357   6        14       0      0         2         0         0             0        0        0       0.00101
+136       1  7751   4        14       0      0         1         0         0             0        0        0       0.00050
+137       1 19732   8        14       0      0         1         0         0             0        0        0       0.00050
+138       1   474   9        12       0      0         1         0         0             0        0        0       0.00050
+139       1 19678  10         4       0      0         0         0         0             0        0        0       0.00000
+140       1   432   9         4       0      0         0         0         0             0        0        0       0.00000
+141       1   402  16         4       0      0         0         0         0             0        0        0       0.00000
+142       1 20543   7         4       0      0         0         0         0             0        0        0       0.00000
+143       1   436  10         4       0      0         0         0         0             0        0        0       0.00000
+144       1 30326   4         6       0      0         0         0         0             0        0        0       0.00000
+145       1 44481   2         3       0      0         0         0         0             0        0        0       0.00000
+146       1 44015   2         7       0      0         0         0         0             0        0        0       0.00000
+147       1   398   9         4       0      0         0         0         0             0        0        0       0.00000
+148       1   405   9         4       0      0         0         0         0             0        0        0       0.00000
+149       1   364  11         4       0      0         0         0         0             0        0        0       0.00000
+150       1 47178   2         6       0      0         0         0         0             0        0        0       0.00000
+151       1 12300   5         6       0      0         0         0         0             0        0        0       0.00000
+152       1 39575   6         6       0      0         0         0         0             0        0        0       0.00000
+153       1   387  10         4       0      0         0         0         0             0        0        0       0.00000
+154       1   420  10         4       0      0         0         0         0             0        0        0       0.00000
+155       1   446  10         4       0      0         0         0         0             0        0        0       0.00000
+156       1   422  10         4       0      0         0         0         0             0        0        0       0.00000
+157       1   448  10         4       0      0         0         0         0             0        0        0       0.00000
+158       1   452  10         4       0      0         0         0         0             0        0        0       0.00000
+159       1   393  11         4       0      0         0         0         0             0        0        0       0.00000
+160       1   412  10         4       0      0         0         0         0             0        0        0       0.00000
+161       1   365  11         4       0      0         0         0         0             0        0        0       0.00000
+162       1   409  10         4       0      0         0         0         0             0        0        0       0.00000
+163       1   418  10         4       0      0         0         0         0             0        0        0       0.00000
+164       1   424  10         4       0      0         0         0         0             0        0        0       0.00000
+165       1   416  10         4       0      0         0         0         0             0        0        0       0.00000
+166       1   391  11         4       0      0         0         0         0             0        0        0       0.00000
+167       1   440  10         4       0      0         0         0         0             0        0        0       0.00000
+168       1   457  10         4       0      0         0         0         0             0        0        0       0.00000
+169       1   454  10         4       0      0         0         0         0             0        0        0       0.00000
+170       1   414  10         4       0      0         0         0         0             0        0        0       0.00000
+171       1   389  10         4       0      0         0         0         0             0        0        0       0.00000
+172       1   450  11         4       0      0         0         0         0             0        0        0       0.00000
+173       1 26118   4         6       0      0         0         0         0             0        0        0       0.00000
+174       1   375  10         4       0      0         0         0         0             0        0        0       0.00000
+175       1   381  11         4       0      0         0         0         0             0        0        0       0.00000
+176       1   228  11         4       0      0         0         0         0             0        0        0       0.00000
+177       1 24301   5         4       0      0         0         0         0             0        0        0       0.00000
+178       1   251  11         4       0      0         0         0         0             0        0        0       0.00000
+179       1 13948  13         1       0      0         0         0         0             0        0        0       0.00000
+180       1 13949  17         1       0      0         0         0         0             0        0        0       0.00000
+181       1 55993   1        12       0      0         0         0         0             0        0        0       0.00000
+182       1  3626   9         4       0      0         0         0         0             0        0        0       0.00000
+183       1   396  12         4       0      0         0         0         0             0        0        0       0.00000
+184       1   406   9         4       0      0         0         0         0             0        0        0       0.00000
+185       1   431   9         4       0      0         0         0         0             0        0        0       0.00000
+186       1   425   9         4       0      0         0         0         0             0        0        0       0.00000
+187       1   404  14         4       0      0         0         0         0             0        0        0       0.00000
+188       1   437  10         4       0      0         0         0         0             0        0        0       0.00000
+189       1   403   9         4       0      0         0         0         0             0        0        0       0.00000
+190       1   438  13         4       0      0         0         0         0             0        0        0       0.00000
+191       1   433  11         4       0      0         0         0         0             0        0        0       0.00000
+192       1   407  10         4       0      0         0         0         0             0        0        0       0.00000
+193       1  8730   6         4       0      0         0         0         0             0        0        0       0.00000
+194       1 43692   2         4       0      0         0         0         0             0        0        0       0.00000
+195       1 24302   4         4       0      0         0         0         0             0        0        0       0.00000
+196       1   428  10         4       0      0         0         0         0             0        0        0       0.00000
+197       1   224  10         4       0      0         0         0         0             0        0        0       0.00000
+198       1   397   9         4       0      0         0         0         0             0        0        0       0.00000
+199       1 51485   1         2       0      0         0         0         0             0        0        0       0.00000
+200       1   459  12         4       0      0         0         0         0             0        0        0       0.00000
+201       1   394   9         4       0      0         0         0         0             0        0        0       0.00000
+202       1   395   9         4       0      0         0         0         0             0        0        0       0.00000
+203       1   426  10         4       0      0         0         0         0             0        0        0       0.00000
+204       1   410   8         4       0      0         0         0         0             0        0        0       0.00000
+205       1   430   9         4       0      0         0         0         0             0        0        0       0.00000
+206       1   399   9         4       0      0         0         0         0             0        0        0       0.00000
+207       1 20242  11         2       0      0         0         0         0             0        0        0       0.00000
+208       1 17484  10         2       0      0         0         0         0             0        0        0       0.00000
+209       1 23178   9         4       0      0         0         0         0             0        0        0       0.00000
+210       1   385   8         4       0      0         0         0         0             0        0        0       0.00000
+211       1   400  10         4       0      0         0         0         0             0        0        0       0.00000
+212       1   363  11         4       0      0         0         0         0             0        0        0       0.00000
+213       1 13288  15         4       0      0         0         0         0             0        0        0       0.00000
+214       1   463  14         4       0      0         0         0         0             0        0        0       0.00000
+215       1 24298   3         4       0      0         0         0         0             0        0        0       0.00000
+216       1 28292   2         4       0      0         0         0         0             0        0        0       0.00000
+217       1 24297   3         4       0      0         0         0         0             0        0        0       0.00000
+218       1   461  12         4       0      0         0         0         0             0        0        0       0.00000
+219       1 38282   1         1       0      0         0         0         0             0        0        0       0.00000
+220       1 41789   2         1       0      0         0         0         0             0        0        0       0.00000
+221       1 44630   1         1       0      0         0         0         0             0        0        0       0.00000
+222       1 38283   1         1       0      0         0         0         0             0        0        0       0.00000
+223       1 38284   1         1       0      0         0         0         0             0        0        0       0.00000
+224       1 41788   2         1       0      0         0         0         0             0        0        0       0.00000
+225       1 38281   1         1       0      0         0         0         0             0        0        0       0.00000
+226       1 44628   1         1       0      0         0         0         0             0        0        0       0.00000
+227       1 44629   1         1       0      0         0         0         0             0        0        0       0.00000
+228       1 57744   1         1       0      0         0         0         0             0        0        0       0.00000
+o")~   Snort exiting
