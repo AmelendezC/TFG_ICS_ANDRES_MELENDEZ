@@ -363,11 +363,19 @@ Número de mensajes de red con ataques: 2
 Resultados para T0866-VulnAccess-SMBv1_[2]_combined_alerts.txt:
 ==================================
 SIDs distintos y cuántas veces se repite cada uno:
+      6 2024216
+      4 2024218
+      3 2102466
+      2 2102465
+      2 2024297
+      1 2035480
       1 2027397
-Número total de alertas: 1
-Número de flujos detectados: 1
+      1 2025644
+      1 2024217
+Número total de alertas: 21
+Número de flujos detectados: 7
 Contando el número de mensajes de red con ataques...
-Número de mensajes de red con ataques: 1
+Número de mensajes de red con ataques: 21
 ----------------------------------
 
 Resultados para T0882-DirectoryRead-IEC104_[2]_combined_alerts.txt:
