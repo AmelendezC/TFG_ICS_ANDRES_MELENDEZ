@@ -46,6 +46,20 @@ Commencing packet processing
 ##### T0866-VulnAccess-SMBv1.pcapng #####
 	[1:1917:16] INDICATOR-SCAN UPnP service discover attempt (alerts: 14)
 	[1:24303:7] PROTOCOL-ICMP IPv6 multicast neighbor add attempt (alerts: 2)
+	[1:41807:3] POLICY-OTHER SSLv3 Client Hello attempt (alerts: 2)
+	[1:41978:5] OS-WINDOWS Microsoft Windows SMB remote code execution attempt (alerts: 24)
+	[1:42329:2] MALWARE-CNC Win.Trojan.Doublepulsar variant successful ping response (alerts: 1)
+	[1:42330:2] MALWARE-CNC Win.Trojan.Doublepulsar variant successful injection response (alerts: 5)
+	[1:42331:5] MALWARE-CNC Win.Trojan.Doublepulsar variant process injection command (alerts: 6)
+	[1:42340:4] OS-WINDOWS Microsoft Windows SMB anonymous session IPC share access attempt (alerts: 3)
+	[1:42944:2] OS-WINDOWS Microsoft Windows SMB remote code execution attempt (alerts: 2)
+	[1:43459:3] MALWARE-CNC Win.Trojan.Doublepulsar variant successful ping response (alerts: 3)
+	[1:44484:5] POLICY-OTHER SMBv1 protocol detection attempt (alerts: 7)
+	[1:44486:4] POLICY-OTHER SMBv1 protocol detection attempt (alerts: 7)
+	[1:44488:4] POLICY-OTHER SMBv1 protocol detection attempt (alerts: 7)
+	[1:44489:4] POLICY-OTHER SMBv1 protocol detection attempt (alerts: 2)
+	[1:5730:13] OS-WINDOWS Microsoft Windows SMB-DS Trans Max Param OS-WINDOWS attempt (alerts: 1)
+	[1:58160:1] INDICATOR-SHELLCODE Metasploit windows/meterpreter stage transfer attempt (alerts: 1)
 #####
 -- [0] ./T0866-VulnAccess-SMBv1.pcapng
 
