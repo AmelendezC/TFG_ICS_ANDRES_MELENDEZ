@@ -1,8 +1,0 @@
-attackid	severity	attack	service	srcip	dstip	subtype	eventtype
-45360	low	Nmap.Script.Scanner	tcp/2404	192.168.1.156	192.168.1.134	ips	signature
-45360	low	Nmap.Script.Scanner	SSL	192.168.1.156	192.168.1.134	ips	signature
-45360	low	Nmap.Script.Scanner	HTTP	192.168.1.156	192.168.1.134	ips	signature
-
-Metric	Count
-Total Alerts	3
-Distinct Alerts	1
