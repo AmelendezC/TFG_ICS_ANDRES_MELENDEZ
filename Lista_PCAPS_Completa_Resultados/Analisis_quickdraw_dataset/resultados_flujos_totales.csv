@@ -1,0 +1,11 @@
+archivo,num_flujos_totales
+bacnet_test_fixed[3].pcapng,5
+dnp3_test_data_part1_fixed[3].pcapng,8
+dnp3_test_data_part2_fixed[3].pcapng,1
+enip_test_fixed[3].pcapng,2
+fox_info_fixed[3].pcapng,1
+modbus_test_data_part1_fixed[3].pcapng,6
+modbus_test_data_part2_fixed[3].pcapng,1
+modicon_test_fixed[3].pcapng,1
+omron_test_fixed[3].pcapng,5
+s7_test_fixed[3].pcapng,3
