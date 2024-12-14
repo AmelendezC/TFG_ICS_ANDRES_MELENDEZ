@@ -10,9 +10,9 @@
  ------------ SECCIÓN A.1: VISTA GENERAL HOJA DETECCIONES ------------
  
  Esta hoja concentra numerosos aspectos relacionados con el estudio, divididos en pestañas:
-  -> (A.1) - Reglas Usadas: pestaña con un registro de versiones y agrupación de los paquetes de reglas, así como las versiones de los IDS
+  -> (A.1) - Reglas Usadas: pestaña con un registro de versiones y agrupación de los paquetes de reglas, así como las versiones de los IDS.
   -> (A.2) - Configuración de FG / PA: pestaña con detalles de configuración que puedan afectar a las detecciones, e.g. umbrales de Denegación de Servicio y Fuerza Bruta. Viene acompañada de indicaciones.
-  -> (B) -Detección_Ataques->SIDs : esta pestaña contiene dos aspectos de los ataques implementados
+  -> (B) -Detección_Ataques->SIDs : esta pestaña contiene dos aspectos de los ataques implementados.
                            --> Caracterización de pcaps: información variada acerca del ataque implementado, sin relación con los IDS
                            --> Resultados de Detecciones: resultados devueltos por los distintos IDS para cada uno de los ataques
   -> (C) - Detecciones - Tráfico Legítimo: similar a la pestaña (B), pero aplicada a las capturas de tráfico legítimo
