@@ -143,10 +143,8 @@ Para entender la estructura de la pestaña dedicada al tráfico legítimo se exp
  -> Nº de flujos: número de flujos totales calculados con la herramienta tranalyzer del fichero PCAP
  -> Nº de Direcciones Distintas: nº de direcciones IP distintas que aparecen en la captura de paquetes
  -> SIDs en Tráfico Legítimo (RS1, RS2, RS3, RS4, FortiGate, PaloAlto): SIDs que ha generado el IDS correspondiente (para el RuleSet correspondiente en caso de Snort) para la detección del fichero PCAP
-
-````
  -> #SIDs en Tráfico Legítimo (RS1, RS2, RS3, RS4, FortiGate, PaloAlto): Nº SIDs que ha generado el IDS correspondiente (para el RuleSet correspondiente en caso de Snort) para la detección del fichero PCAP
  -> Total number of alerts -> Nº total de alertas que aparecen por cada RS
-
+````
 
 
